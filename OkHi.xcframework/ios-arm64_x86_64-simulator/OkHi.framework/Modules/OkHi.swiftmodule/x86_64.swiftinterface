@@ -175,6 +175,7 @@ public protocol OkVerifyDelegate {
   func verify(_ okverify: OkHi.OkVerify, didEncounterError error: OkHi.OkVerifyError)
   func verify(_ okverify: OkHi.OkVerify, didStartAddressVerificationFor locationId: Swift.String)
   func verify(_ okverify: OkHi.OkVerify, didStopVerificationFor locationId: Swift.String)
+  func verify(_ okverify: OkHi.OkVerify, didUpdateLocationPermissionStatus status: CoreLocation.CLAuthorizationStatus)
 }
 @_inheritsConvenienceInitializers @objc public class OkVerify : ObjectiveC.NSObject {
   public var delegate: OkHi.OkVerifyDelegate?

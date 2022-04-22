@@ -199,6 +199,9 @@ extension OkHi.OkVerify {
   public func requestLocationPermission()
   public func requestBackgroundLocationPermission()
 }
+extension OkHi.OkVerify {
+  public static func getLocationAuthorizationStatus(clManager: CoreLocation.CLLocationManager) -> CoreLocation.CLAuthorizationStatus
+}
 extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
@@ -329,6 +332,11 @@ public struct StreetView : Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class OkVerifyAnalytics : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func startAnalytics()
+  @objc deinit
 }
 public struct OkHiGeofenceConfig : Swift.Codable {
   public var radius: Swift.Int

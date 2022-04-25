@@ -446,13 +446,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 - (void)startMonitoring;
 @end
 
-
-SWIFT_CLASS("_TtC4OkHi17OkVerifyAnalytics")
-@interface OkVerifyAnalytics : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)startAnalytics;
-@end
-
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
@@ -960,13 +953,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
-@end
-
-
-SWIFT_CLASS("_TtC4OkHi17OkVerifyAnalytics")
-@interface OkVerifyAnalytics : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)startAnalytics;
 @end
 
 @class NSEntityDescription;

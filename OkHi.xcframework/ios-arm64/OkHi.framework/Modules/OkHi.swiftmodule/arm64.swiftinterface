@@ -333,11 +333,6 @@ public struct StreetView : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class OkVerifyAnalytics : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc public func startAnalytics()
-  @objc deinit
-}
 public struct OkHiGeofenceConfig : Swift.Codable {
   public var radius: Swift.Int
   public var expiration: Swift.Int

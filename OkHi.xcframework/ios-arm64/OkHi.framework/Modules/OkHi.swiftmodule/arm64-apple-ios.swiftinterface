@@ -324,9 +324,20 @@ public struct StreetView : Swift.Codable {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
+public enum OkHiInitializationRoot : Swift.String {
+  case initalize
+  case didFinishLaunchingWithOptions
+  case willFinishLaunchingWithOptions
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class OkAnalytics {
   @available(iOS 14, *)
   public static func requestTrackingAuthorization(completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  public static func initialize(root: OkHi.OkHiInitializationRoot)
   @objc deinit
 }
 @objc public class GeoPoint : ObjectiveC.NSObject, Foundation.NSSecureCoding, Swift.Codable {
@@ -441,6 +452,9 @@ extension OkHi.OkHiError.ErrorMessages : Swift.Hashable {}
 extension OkHi.OkHiError.ErrorMessages : Swift.RawRepresentable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Equatable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Hashable {}
+extension OkHi.OkHiInitializationRoot : Swift.Equatable {}
+extension OkHi.OkHiInitializationRoot : Swift.Hashable {}
+extension OkHi.OkHiInitializationRoot : Swift.RawRepresentable {}
 extension OkHi.Environment : Swift.Equatable {}
 extension OkHi.Environment : Swift.Hashable {}
 extension OkHi.Environment : Swift.RawRepresentable {}

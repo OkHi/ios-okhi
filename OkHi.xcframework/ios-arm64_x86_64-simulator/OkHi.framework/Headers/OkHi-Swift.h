@@ -428,6 +428,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @class CLRegion;
 @class CLLocation;
 
@@ -439,6 +440,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
 @end
 
 
@@ -937,6 +939,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @class CLRegion;
 @class CLLocation;
 
@@ -948,6 +951,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
 @end
 
 

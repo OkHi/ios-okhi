@@ -214,11 +214,6 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: Swift.Error)
 }
-extension OkHi.OkVerify {
-  public func handleRegionTransition(region: CoreLocation.CLRegion, transition: OkHi.OkVerifyGeofenceTransitionType)
-  public func handleCoreLocationError(error: Swift.Error)
-  public func handleCoreLocationRegionError(region: CoreLocation.CLRegion?, withError error: Swift.Error)
-}
 @_inheritsConvenienceInitializers @objc public class OkHiTheme : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public func with(logoUrl: Swift.String) -> OkHi.OkHiTheme

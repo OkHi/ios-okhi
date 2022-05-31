@@ -212,6 +212,12 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: Swift.Error)
+}
+extension OkHi.OkVerify {
+  public func handleRegionTransition(region: CoreLocation.CLRegion, transition: OkHi.OkVerifyGeofenceTransitionType)
+  public func handleCoreLocationError(error: Swift.Error)
+  public func handleCoreLocationRegionError(region: CoreLocation.CLRegion?, withError error: Swift.Error)
 }
 @_inheritsConvenienceInitializers @objc public class OkHiTheme : ObjectiveC.NSObject {
   @objc override dynamic public init()
@@ -293,6 +299,15 @@ public enum OkVerifyLocationPermissionRequestType {
   public static func == (a: OkHi.OkVerifyLocationPermissionRequestType, b: OkHi.OkVerifyLocationPermissionRequestType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OkVerifyGeofenceTransitionType : Swift.String {
+  case enter
+  case exit
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -454,6 +469,9 @@ extension OkHi.OkHiError.ErrorMessages : Swift.Hashable {}
 extension OkHi.OkHiError.ErrorMessages : Swift.RawRepresentable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Equatable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Hashable {}
+extension OkHi.OkVerifyGeofenceTransitionType : Swift.Equatable {}
+extension OkHi.OkVerifyGeofenceTransitionType : Swift.Hashable {}
+extension OkHi.OkVerifyGeofenceTransitionType : Swift.RawRepresentable {}
 extension OkHi.OkHiInitializationRoot : Swift.Equatable {}
 extension OkHi.OkHiInitializationRoot : Swift.Hashable {}
 extension OkHi.OkHiInitializationRoot : Swift.RawRepresentable {}

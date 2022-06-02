@@ -422,6 +422,7 @@ public enum OkHiAccessScope : Swift.String {
   @objc override dynamic public init()
   @objc public func enableStreetView() -> OkHi.OkHiConfig
   @objc public func enableAppBar() -> OkHi.OkHiConfig
+  @objc public func withAddressTypes(work: Swift.Bool, home: Swift.Bool) -> OkHi.OkHiConfig
   @objc deinit
 }
 public enum OkVerifyError : Swift.Error {

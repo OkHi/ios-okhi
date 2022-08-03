@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RzAkX4GyUKkNmgwkEMgZDSIYulA=
+		MFsJs8P0oZxFQwHXuEbHICZxhqM=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RzAkX4GyUKkNmgwkEMgZDSIYulA=
+		MFsJs8P0oZxFQwHXuEbHICZxhqM=
 		</data>
 		<key>Modules/OkHi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/OkHi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ppz9k4TnAljr3QhO9og0BQvNgok=
+		Y8xfx/kHhQZCKXtPi2XHC8wK7Gc=
 		</data>
 		<key>Modules/OkHi.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/OkHi.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Ppz9k4TnAljr3QhO9og0BQvNgok=
+		Y8xfx/kHhQZCKXtPi2XHC8wK7Gc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lTTqiTeoK+IRhA2k4p96gKei1XLpCIh0GCnvDo0fzM=
+			2WEItov5lJuLEJ5o+CXWl3RMHwVfopc3AI/MFSXQp0g=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/arm64.swiftdoc</key>
@@ -132,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lTTqiTeoK+IRhA2k4p96gKei1XLpCIh0GCnvDo0fzM=
+			2WEItov5lJuLEJ5o+CXWl3RMHwVfopc3AI/MFSXQp0g=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqaXXcJFWuyL+vfyThnT/Kl4a0mrDZnaY1NvImDglNQ=
+			28a3QLUaoMDhwTma/YuD7GLQw0DSPjouwtJcbD2sj5Y=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/x86_64.swiftdoc</key>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqaXXcJFWuyL+vfyThnT/Kl4a0mrDZnaY1NvImDglNQ=
+			28a3QLUaoMDhwTma/YuD7GLQw0DSPjouwtJcbD2sj5Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

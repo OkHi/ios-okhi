@@ -488,6 +488,25 @@ SWIFT_CLASS("_TtC4OkHi26OkVerifyGeofenceTransition")
 @end
 
 
+SWIFT_CLASS_NAMED("OkVerifyGeofenceTransmissionMonitor")
+@interface OkVerifyGeofenceTransmissionMonitor : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface OkVerifyGeofenceTransmissionMonitor (SWIFT_EXTENSION(OkHi))
+@property (nonatomic, copy) NSDate * _Nullable transitionDate;
+@property (nonatomic, copy) NSString * _Nullable geoPointSource;
+@property (nonatomic) double longitude;
+@property (nonatomic) double latitude;
+@property (nonatomic, copy) NSString * _Nullable transition;
+@property (nonatomic) double accuracy;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSDate * _Nullable locationDate;
+@property (nonatomic, copy) NSString * _Nullable locationId;
+@end
+
+
 SWIFT_CLASS("_TtC4OkHi12OkVerifyUser")
 @interface OkVerifyUser : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;

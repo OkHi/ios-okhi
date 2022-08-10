@@ -233,7 +233,7 @@ public class OkHiUser : Swift.Codable {
   public var lastName: Swift.String?
   public var id: Swift.String?
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: Swift.Decoder)
   public init(phoneNumber: Swift.String)
   public func with(firstName: Swift.String) -> OkHi.OkHiUser
   public func with(lastName: Swift.String) -> OkHi.OkHiUser

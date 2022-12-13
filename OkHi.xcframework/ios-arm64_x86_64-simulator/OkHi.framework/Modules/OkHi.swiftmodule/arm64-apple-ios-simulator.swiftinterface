@@ -232,10 +232,12 @@ public class OkHiUser : Swift.Codable {
   public var firstName: Swift.String?
   public var lastName: Swift.String?
   public var id: Swift.String?
+  public var email: Swift.String?
   public init()
   required public init(from decoder: Swift.Decoder)
   public init(phoneNumber: Swift.String)
   public func with(firstName: Swift.String) -> OkHi.OkHiUser
+  public func with(email: Swift.String) -> OkHi.OkHiUser
   public func with(lastName: Swift.String) -> OkHi.OkHiUser
   public func with(okHiId: Swift.String) -> OkHi.OkHiUser
   @objc deinit
@@ -311,10 +313,6 @@ public enum OkVerifyGeofenceTransitionType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_inheritsConvenienceInitializers @objc(OkVerifyGeofenceTransmissionMonitor) public class OkVerifyGeofenceTransmissionMonitor : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
 }
 public struct StreetView : Swift.Codable {
   public var url: Swift.String?
@@ -426,45 +424,6 @@ public enum OkHiAccessScope : Swift.String {
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
-  }
-}
-extension OkHi.OkVerifyGeofenceTransmissionMonitor {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<OkHi.OkVerifyGeofenceTransmissionMonitor>
-  @objc @NSManaged dynamic public var transitionDate: Foundation.Date? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var geoPointSource: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var longitude: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var latitude: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var transition: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var accuracy: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var id: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var locationDate: Foundation.Date? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var locationId: Swift.String? {
-    @objc get
-    @objc set
   }
 }
 @_inheritsConvenienceInitializers @objc public class OkHiConfig : ObjectiveC.NSObject {

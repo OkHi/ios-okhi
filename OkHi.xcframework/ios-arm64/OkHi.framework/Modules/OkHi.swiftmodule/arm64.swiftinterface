@@ -237,9 +237,9 @@ public class OkHiUser : Swift.Codable {
   required public init(from decoder: Swift.Decoder)
   public init(phoneNumber: Swift.String)
   public func with(firstName: Swift.String) -> OkHi.OkHiUser
-  public func with(email: Swift.String) -> OkHi.OkHiUser
   public func with(lastName: Swift.String) -> OkHi.OkHiUser
   public func with(okHiId: Swift.String) -> OkHi.OkHiUser
+  public func with(email: Swift.String) -> OkHi.OkHiUser
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }

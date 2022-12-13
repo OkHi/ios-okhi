@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'OkHi'
-  s.version               = '1.8.9-beta'
+  s.version               = '1.9.0'
   s.summary               = 'The OkHi iOS library will enable you to start collecting and verifying your user\'s addresses.'
   s.homepage              = 'https://docs.okhi.co'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }

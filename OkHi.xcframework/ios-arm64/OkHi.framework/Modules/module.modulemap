@@ -6,6 +6,6 @@ framework module OkHi {
 }
 
 module OkHi.Swift {
-    header "OkHi-Swift.h"
-    requires objc
+  header "OkHi-Swift.h"
+  requires objc
 }

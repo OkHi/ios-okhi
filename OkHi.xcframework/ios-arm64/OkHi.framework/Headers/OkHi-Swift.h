@@ -475,6 +475,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @class CLRegion;
 @class CLLocation;
 

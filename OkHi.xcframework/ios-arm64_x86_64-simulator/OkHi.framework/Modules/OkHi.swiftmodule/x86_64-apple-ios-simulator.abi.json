@@ -6038,6 +6038,13 @@
         "moduleName": "OkHi"
       },
       {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "OkVerifyDelegate",
         "printedName": "OkVerifyDelegate",
@@ -6239,6 +6246,39 @@
             "declKind": "Func",
             "usr": "s:4OkHi0A14VerifyDelegateP6verify_33didUpdateLocationPermissionStatusyAA0aC0C_So015CLAuthorizationJ0VtF",
             "mangledName": "$s4OkHi0A14VerifyDelegateP6verify_33didUpdateLocationPermissionStatusyAA0aC0C_So015CLAuthorizationJ0VtF",
+            "moduleName": "OkHi",
+            "genericSig": "<τ_0_0 where τ_0_0 : OkHi.OkVerifyDelegate>",
+            "sugared_genericSig": "<Self where Self : OkHi.OkVerifyDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verify",
+            "printedName": "verify(_:didUpdateNotificationPermissionStatus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OkVerify",
+                "printedName": "OkHi.OkVerify",
+                "usr": "c:@M@OkHi@objc(cs)OkVerify"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A14VerifyDelegateP6verify_37didUpdateNotificationPermissionStatusyAA0aC0C_SbtF",
+            "mangledName": "$s4OkHi0A14VerifyDelegateP6verify_37didUpdateNotificationPermissionStatusyAA0aC0C_SbtF",
             "moduleName": "OkHi",
             "genericSig": "<τ_0_0 where τ_0_0 : OkHi.OkVerifyDelegate>",
             "sugared_genericSig": "<Self where Self : OkHi.OkVerifyDelegate>",
@@ -6669,8 +6709,7 @@
             "mangledName": "$s4OkHi0A6VerifyC27isLocationPermissionGrantedSbyF",
             "moduleName": "OkHi",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -6744,6 +6783,86 @@
           },
           {
             "kind": "Function",
+            "name": "isNotificationPermissionGranted",
+            "printedName": "isNotificationPermissionGranted(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC31isNotificationPermissionGranted10completionyySbc_tFZ",
+            "mangledName": "$s4OkHi0A6VerifyC31isNotificationPermissionGranted10completionyySbc_tFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isNotificationPermissionGranted",
+            "printedName": "isNotificationPermissionGranted(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC31isNotificationPermissionGranted10completionyySbc_tF",
+            "mangledName": "$s4OkHi0A6VerifyC31isNotificationPermissionGranted10completionyySbc_tF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "requestLocationPermission",
             "printedName": "requestLocationPermission()",
             "children": [
@@ -6777,6 +6896,82 @@
             "declKind": "Func",
             "usr": "s:4OkHi0A6VerifyC35requestBackgroundLocationPermissionyyF",
             "mangledName": "$s4OkHi0A6VerifyC35requestBackgroundLocationPermissionyyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNotificationPermission",
+            "printedName": "requestNotificationPermission(registerForRemoteNotifications:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC29requestNotificationPermission30registerForRemoteNotifications10completionySb_ySbctFZ",
+            "mangledName": "$s4OkHi0A6VerifyC29requestNotificationPermission30registerForRemoteNotifications10completionySb_ySbctFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNotificationPermission",
+            "printedName": "requestNotificationPermission(registerForRemoteNotifications:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC29requestNotificationPermission30registerForRemoteNotificationsySb_tF",
+            "mangledName": "$s4OkHi0A6VerifyC29requestNotificationPermission30registerForRemoteNotificationsySb_tF",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
@@ -17667,6 +17862,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15469,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15980,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
       "kind": "StringLiteral",
       "offset": 1700,
@@ -18105,7 +18314,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 7,
-      "value": "\"1.9.2\""
+      "value": "\"1.9.3\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",

@@ -475,6 +475,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @class CLRegion;
 @class CLLocation;
 
@@ -1030,6 +1031,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 @interface OkVerify : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

@@ -4,4 +4,3 @@
     "pub": "yarn lint && pod trunk push OkHi.podspec"
   }
 }
-

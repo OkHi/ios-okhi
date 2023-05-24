@@ -14,6 +14,7 @@ import Network
 import Swift
 import SystemConfiguration
 import UIKit
+import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -186,6 +187,7 @@ public protocol OkVerifyDelegate {
   func verify(_ okverify: OkHi.OkVerify, didStartAddressVerificationFor locationId: Swift.String)
   func verify(_ okverify: OkHi.OkVerify, didStopVerificationFor locationId: Swift.String)
   func verify(_ okverify: OkHi.OkVerify, didUpdateLocationPermissionStatus status: CoreLocation.CLAuthorizationStatus)
+  func verify(_ okverify: OkHi.OkVerify, didUpdateNotificationPermissionStatus status: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @objc public class OkVerify : ObjectiveC.NSObject {
   public var delegate: OkHi.OkVerifyDelegate?
@@ -200,14 +202,20 @@ extension OkHi.OkVerify {
   public func startAddressVerification(user: OkHi.OkHiUser, location: OkHi.OkHiLocation)
   public func startAddressVerification(phoneNumber: Swift.String, locationId: Swift.String, lat: Swift.Double, lon: Swift.Double)
   public func stopAddressVerification(locationId: Swift.String)
+}
+extension OkHi.OkVerify {
   public func isLocationPermissionGranted() -> Swift.Bool
   public func isBackgroundLocationPermissionGranted() -> Swift.Bool
   public func isLocationServicesEnabled() -> Swift.Bool
   public static func openAppSettings()
+  public static func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 extension OkHi.OkVerify {
   public func requestLocationPermission()
   public func requestBackgroundLocationPermission()
+  public static func requestNotificationPermission(registerForRemoteNotifications: Swift.Bool = true, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func requestNotificationPermission(registerForRemoteNotifications: Swift.Bool = true)
 }
 extension OkHi.OkVerify {
   public static func getLocationAuthorizationStatus(clManager: CoreLocation.CLLocationManager) -> CoreLocation.CLAuthorizationStatus

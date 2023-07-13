@@ -9199,6 +9199,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17953,6 +17970,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkHiLocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 386,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
       "offset": 178,
@@ -18314,7 +18338,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 7,
-      "value": "\"1.9.3\""
+      "value": "\"1.9.5\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
@@ -18382,133 +18406,154 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1965,
+      "offset": 2159,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 2177,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2001,
+      "offset": 2195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2288,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2117,
+      "offset": 2311,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2603,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2628,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2658,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2356,
+      "offset": 2805,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2377,
+      "offset": 2853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2425,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 2899,
       "length": 17,
       "value": "\"okCollectWebIOS\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2935,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2559,
+      "offset": 2987,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2610,
+      "offset": 3038,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2630,
+      "offset": 3058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2683,
+      "offset": 3111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2795,
+      "offset": 3223,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2816,
+      "offset": 3244,
       "length": 5,
       "value": "false"
     },

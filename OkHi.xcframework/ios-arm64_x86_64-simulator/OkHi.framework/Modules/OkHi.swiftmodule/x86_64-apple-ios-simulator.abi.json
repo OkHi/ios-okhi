@@ -9210,6 +9210,78 @@
         "printedName": "OkHiLocationManager",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiLocationManager",
+                "printedName": "OkHi.OkHiLocationManager",
+                "usr": "c:@M@OkHi@objc(cs)OkHiLocationManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OkHi@objc(cs)OkHiLocationManager(im)init",
+            "mangledName": "$s4OkHi0aB15LocationManagerCACycfc",
+            "moduleName": "OkHi",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentLocation",
+            "printedName": "getCurrentLocation(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB15LocationManagerC010getCurrentC010completionyySo10CLLocationCSgc_tF",
+            "mangledName": "$s4OkHi0aB15LocationManagerC010getCurrentC010completionyySo10CLLocationCSgc_tF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "locationManager",
             "printedName": "locationManager(_:didUpdateLocations:)",
@@ -9313,6 +9385,54 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthorizationStatus",
+            "printedName": "getAuthorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB15LocationManagerC22getAuthorizationStatusSo015CLAuthorizationG0VyF",
+            "mangledName": "$s4OkHi0aB15LocationManagerC22getAuthorizationStatusSo015CLAuthorizationG0VyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLocationPermissionGranted",
+            "printedName": "isLocationPermissionGranted(withLocationServiceAvailable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB15LocationManagerC02isC17PermissionGranted04withC16ServiceAvailableS2b_tF",
+            "mangledName": "$s4OkHi0aB15LocationManagerC02isC17PermissionGranted04withC16ServiceAvailableS2b_tF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -9324,7 +9444,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -18515,7 +18634,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 7,
-      "value": "\"1.9.8\""
+      "value": "\"1.9.9\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",

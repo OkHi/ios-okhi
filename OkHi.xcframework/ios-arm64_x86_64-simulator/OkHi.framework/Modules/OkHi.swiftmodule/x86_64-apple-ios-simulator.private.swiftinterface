@@ -302,10 +302,14 @@ extension OkHi.OkVerifyGeofence {
     @objc set
   }
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class OkHiLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+@objc @_inheritsConvenienceInitializers public class OkHiLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  @objc override dynamic public init()
+  public func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?) -> Swift.Void)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  public func getAuthorizationStatus() -> CoreLocation.CLAuthorizationStatus
+  public func isLocationPermissionGranted(withLocationServiceAvailable: Swift.Bool) -> Swift.Bool
   @objc deinit
 }
 public protocol OkCollectDelegate {

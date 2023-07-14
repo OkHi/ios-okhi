@@ -399,8 +399,7 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 
 SWIFT_CLASS("_TtC4OkHi19OkHiLocationManager")
 @interface OkHiLocationManager : NSObject <CLLocationManagerDelegate>
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
@@ -970,8 +969,7 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 
 SWIFT_CLASS("_TtC4OkHi19OkHiLocationManager")
 @interface OkHiLocationManager : NSObject <CLLocationManagerDelegate>
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;

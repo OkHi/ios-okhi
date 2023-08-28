@@ -18177,14 +18177,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 15469,
+      "offset": 15546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 15980,
+      "offset": 16057,
       "length": 4,
       "value": "true"
     },
@@ -18633,8 +18633,8 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 326,
-      "length": 7,
-      "value": "\"1.9.9\""
+      "length": 13,
+      "value": "\"1.9.10-beta\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",

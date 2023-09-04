@@ -18633,8 +18633,8 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 326,
-      "length": 13,
-      "value": "\"1.9.10-beta\""
+      "length": 8,
+      "value": "\"1.9.11\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",

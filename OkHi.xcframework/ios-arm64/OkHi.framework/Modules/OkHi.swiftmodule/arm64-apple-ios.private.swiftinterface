@@ -366,8 +366,8 @@ public struct StreetView : Swift.Codable {
   public static let shared: OkHi.OkAnalytics
   @available(iOS 14, *)
   public static func requestTrackingAuthorization(completionHandler: @escaping (Swift.String?) -> Swift.Void)
-  public static func log(message: Swift.String)
-  public static func log(data: [Swift.String : Any])
+  public func log(message: Swift.String)
+  public func log(data: [Swift.String : Any])
   public func startMonitoring()
   @objc deinit
 }

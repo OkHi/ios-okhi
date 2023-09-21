@@ -13460,12 +13460,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC3log7messageySS_tFZ",
-            "mangledName": "$s4OkHi0A9AnalyticsC3log7messageySS_tFZ",
+            "usr": "s:4OkHi0A9AnalyticsC3log7messageySS_tF",
+            "mangledName": "$s4OkHi0A9AnalyticsC3log7messageySS_tF",
             "moduleName": "OkHi",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -13501,12 +13499,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC3log4dataySDySSypG_tFZ",
-            "mangledName": "$s4OkHi0A9AnalyticsC3log4dataySDySSypG_tFZ",
+            "usr": "s:4OkHi0A9AnalyticsC3log4dataySDySSypG_tF",
+            "mangledName": "$s4OkHi0A9AnalyticsC3log4dataySDySSypG_tF",
             "moduleName": "OkHi",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -18556,7 +18552,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 13,
-      "value": "\"1.9.13-beta\""
+      "value": "\"1.9.14-beta\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

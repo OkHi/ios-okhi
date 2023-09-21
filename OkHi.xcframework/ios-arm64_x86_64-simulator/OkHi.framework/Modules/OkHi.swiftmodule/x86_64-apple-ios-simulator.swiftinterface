@@ -362,23 +362,18 @@ public struct StreetView : Swift.Codable {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
-public enum OkHiInitializationRoot : Swift.String {
-  case initalize
-  case didFinishLaunchingWithOptions
-  case willFinishLaunchingWithOptions
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class OkAnalytics {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class OkAnalytics : ObjectiveC.NSObject {
+  public static let shared: OkHi.OkAnalytics
   @available(iOS 14, *)
   public static func requestTrackingAuthorization(completionHandler: @escaping (Swift.String?) -> Swift.Void)
-  public static func initialize(root: OkHi.OkHiInitializationRoot)
-  public static func print(log: Swift.String)
-  public static func print(data: [Swift.String : Any])
+  public static func log(message: Swift.String)
+  public static func log(data: [Swift.String : Any])
+  public func startMonitoring()
   @objc deinit
+}
+extension OkHi.OkAnalytics : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
 }
 @objc public class GeoPoint : ObjectiveC.NSObject, Foundation.NSSecureCoding, Swift.Codable {
   @objc public static var supportsSecureCoding: Swift.Bool
@@ -496,9 +491,6 @@ extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Hashable {}
 extension OkHi.OkVerifyGeofenceTransitionType : Swift.Equatable {}
 extension OkHi.OkVerifyGeofenceTransitionType : Swift.Hashable {}
 extension OkHi.OkVerifyGeofenceTransitionType : Swift.RawRepresentable {}
-extension OkHi.OkHiInitializationRoot : Swift.Equatable {}
-extension OkHi.OkHiInitializationRoot : Swift.Hashable {}
-extension OkHi.OkHiInitializationRoot : Swift.RawRepresentable {}
 extension OkHi.Environment : Swift.Equatable {}
 extension OkHi.Environment : Swift.Hashable {}
 extension OkHi.Environment : Swift.RawRepresentable {}

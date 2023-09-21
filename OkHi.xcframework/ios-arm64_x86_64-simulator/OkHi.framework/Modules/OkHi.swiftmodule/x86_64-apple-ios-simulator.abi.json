@@ -13330,171 +13330,42 @@
         "moduleName": "OkHi"
       },
       {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "OkHiInitializationRoot",
-        "printedName": "OkHiInitializationRoot",
+        "name": "OkAnalytics",
+        "printedName": "OkAnalytics",
         "children": [
           {
             "kind": "Var",
-            "name": "initalize",
-            "printedName": "initalize",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OkHi.OkHiInitializationRoot.Type) -> OkHi.OkHiInitializationRoot",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OkHiInitializationRoot",
-                    "printedName": "OkHi.OkHiInitializationRoot",
-                    "usr": "s:4OkHi0aB18InitializationRootO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OkHi.OkHiInitializationRoot.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OkHiInitializationRoot",
-                        "printedName": "OkHi.OkHiInitializationRoot",
-                        "usr": "s:4OkHi0aB18InitializationRootO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:4OkHi0aB18InitializationRootO9initalizeyA2CmF",
-            "mangledName": "$s4OkHi0aB18InitializationRootO9initalizeyA2CmF",
-            "moduleName": "OkHi"
-          },
-          {
-            "kind": "Var",
-            "name": "didFinishLaunchingWithOptions",
-            "printedName": "didFinishLaunchingWithOptions",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OkHi.OkHiInitializationRoot.Type) -> OkHi.OkHiInitializationRoot",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OkHiInitializationRoot",
-                    "printedName": "OkHi.OkHiInitializationRoot",
-                    "usr": "s:4OkHi0aB18InitializationRootO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OkHi.OkHiInitializationRoot.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OkHiInitializationRoot",
-                        "printedName": "OkHi.OkHiInitializationRoot",
-                        "usr": "s:4OkHi0aB18InitializationRootO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:4OkHi0aB18InitializationRootO29didFinishLaunchingWithOptionsyA2CmF",
-            "mangledName": "$s4OkHi0aB18InitializationRootO29didFinishLaunchingWithOptionsyA2CmF",
-            "moduleName": "OkHi"
-          },
-          {
-            "kind": "Var",
-            "name": "willFinishLaunchingWithOptions",
-            "printedName": "willFinishLaunchingWithOptions",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OkHi.OkHiInitializationRoot.Type) -> OkHi.OkHiInitializationRoot",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OkHiInitializationRoot",
-                    "printedName": "OkHi.OkHiInitializationRoot",
-                    "usr": "s:4OkHi0aB18InitializationRootO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OkHi.OkHiInitializationRoot.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OkHiInitializationRoot",
-                        "printedName": "OkHi.OkHiInitializationRoot",
-                        "usr": "s:4OkHi0aB18InitializationRootO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:4OkHi0aB18InitializationRootO30willFinishLaunchingWithOptionsyA2CmF",
-            "mangledName": "$s4OkHi0aB18InitializationRootO30willFinishLaunchingWithOptionsyA2CmF",
-            "moduleName": "OkHi"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "OkHi.OkHiInitializationRoot?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OkHiInitializationRoot",
-                    "printedName": "OkHi.OkHiInitializationRoot",
-                    "usr": "s:4OkHi0aB18InitializationRootO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:4OkHi0aB18InitializationRootO8rawValueACSgSS_tcfc",
-            "mangledName": "$s4OkHi0aB18InitializationRootO8rawValueACSgSS_tcfc",
-            "moduleName": "OkHi",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "OkAnalytics",
+                "printedName": "OkHi.OkAnalytics",
+                "usr": "c:@M@OkHi@objc(cs)OkAnalytics"
               }
             ],
             "declKind": "Var",
-            "usr": "s:4OkHi0aB18InitializationRootO8rawValueSSvp",
-            "mangledName": "$s4OkHi0aB18InitializationRootO8rawValueSSvp",
+            "usr": "s:4OkHi0A9AnalyticsC6sharedACvpZ",
+            "mangledName": "$s4OkHi0A9AnalyticsC6sharedACvpZ",
             "moduleName": "OkHi",
-            "implicit": true,
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -13503,73 +13374,24 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "OkAnalytics",
+                    "printedName": "OkHi.OkAnalytics",
+                    "usr": "c:@M@OkHi@objc(cs)OkAnalytics"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:4OkHi0aB18InitializationRootO8rawValueSSvg",
-                "mangledName": "$s4OkHi0aB18InitializationRootO8rawValueSSvg",
+                "usr": "s:4OkHi0A9AnalyticsC6sharedACvgZ",
+                "mangledName": "$s4OkHi0A9AnalyticsC6sharedACvgZ",
                 "moduleName": "OkHi",
+                "static": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:4OkHi0aB18InitializationRootO",
-        "mangledName": "$s4OkHi0aB18InitializationRootO",
-        "moduleName": "OkHi",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OkAnalytics",
-        "printedName": "OkAnalytics",
-        "children": [
           {
             "kind": "Function",
             "name": "requestTrackingAuthorization",
@@ -13622,36 +13444,8 @@
           },
           {
             "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(root:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OkHiInitializationRoot",
-                "printedName": "OkHi.OkHiInitializationRoot",
-                "usr": "s:4OkHi0aB18InitializationRootO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC10initialize4rootyAA0aB18InitializationRootO_tFZ",
-            "mangledName": "$s4OkHi0A9AnalyticsC10initialize4rootyAA0aB18InitializationRootO_tFZ",
-            "moduleName": "OkHi",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "print",
-            "printedName": "print(log:)",
+            "name": "log",
+            "printedName": "log(message:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13666,8 +13460,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC5print3logySS_tFZ",
-            "mangledName": "$s4OkHi0A9AnalyticsC5print3logySS_tFZ",
+            "usr": "s:4OkHi0A9AnalyticsC3log7messageySS_tFZ",
+            "mangledName": "$s4OkHi0A9AnalyticsC3log7messageySS_tFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -13678,8 +13472,8 @@
           },
           {
             "kind": "Function",
-            "name": "print",
-            "printedName": "print(data:)",
+            "name": "log",
+            "printedName": "log(data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13707,8 +13501,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC5print4dataySDySSypG_tFZ",
-            "mangledName": "$s4OkHi0A9AnalyticsC5print4dataySDySSypG_tFZ",
+            "usr": "s:4OkHi0A9AnalyticsC3log4dataySDySSypG_tFZ",
+            "mangledName": "$s4OkHi0A9AnalyticsC3log4dataySDySSypG_tFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -13716,16 +13510,165 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A9AnalyticsC15startMonitoringyyF",
+            "mangledName": "$s4OkHi0A9AnalyticsC15startMonitoringyyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didEnterRegion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OkHi@objc(cs)OkAnalytics(im)locationManager:didEnterRegion:",
+            "mangledName": "$s4OkHi0A9AnalyticsC15locationManager_14didEnterRegionySo010CLLocationE0C_So8CLRegionCtF",
+            "moduleName": "OkHi",
+            "objc_name": "locationManager:didEnterRegion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didExitRegion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OkHi@objc(cs)OkAnalytics(im)locationManager:didExitRegion:",
+            "mangledName": "$s4OkHi0A9AnalyticsC15locationManager_13didExitRegionySo010CLLocationE0C_So8CLRegionCtF",
+            "moduleName": "OkHi",
+            "objc_name": "locationManager:didExitRegion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "s:4OkHi0A9AnalyticsC",
+        "usr": "c:@M@OkHi@objc(cs)OkAnalytics",
         "mangledName": "$s4OkHi0A9AnalyticsC",
         "moduleName": "OkHi",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -18613,49 +18556,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 13,
-      "value": "\"1.9.12-beta\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 212,
-      "length": 11,
-      "value": "\"initalize\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 31,
-      "value": "\"didFinishLaunchingWithOptions\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 32,
-      "value": "\"willFinishLaunchingWithOptions\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 212,
-      "length": 11,
-      "value": "\"initalize\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 31,
-      "value": "\"didFinishLaunchingWithOptions\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 32,
-      "value": "\"willFinishLaunchingWithOptions\""
+      "value": "\"1.9.13-beta\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

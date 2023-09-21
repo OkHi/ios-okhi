@@ -291,6 +291,21 @@ typedef SWIFT_ENUM(NSInteger, LocationPermissionType, open) {
   LocationPermissionTypeAlways = 1,
 };
 
+
+SWIFT_CLASS("_TtC4OkHi11OkAnalytics")
+@interface OkAnalytics : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class CLLocationManager;
+@class CLRegion;
+
+@interface OkAnalytics (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+@end
+
 @class OkHiAuth;
 
 /// Defines OkHiCollect class
@@ -394,7 +409,6 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 - (OkHiConfig * _Nonnull)withAddressTypesWithWork:(BOOL)work home:(BOOL)home SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class CLLocationManager;
 @class CLLocation;
 
 SWIFT_CLASS("_TtC4OkHi19OkHiLocationManager")
@@ -486,7 +500,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-@class CLRegion;
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;

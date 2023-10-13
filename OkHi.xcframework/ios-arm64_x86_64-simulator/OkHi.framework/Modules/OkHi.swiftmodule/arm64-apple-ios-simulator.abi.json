@@ -7173,78 +7173,6 @@
           {
             "kind": "Function",
             "name": "locationManager",
-            "printedName": "locationManager(_:didEnterRegion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLLocationManager",
-                "printedName": "CoreLocation.CLLocationManager",
-                "usr": "c:objc(cs)CLLocationManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLRegion",
-                "printedName": "CoreLocation.CLRegion",
-                "usr": "c:objc(cs)CLRegion"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@OkHi@objc(cs)OkVerify(im)locationManager:didEnterRegion:",
-            "mangledName": "$s4OkHi0A6VerifyC15locationManager_14didEnterRegionySo010CLLocationE0C_So8CLRegionCtF",
-            "moduleName": "OkHi",
-            "objc_name": "locationManager:didEnterRegion:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "locationManager",
-            "printedName": "locationManager(_:didExitRegion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLLocationManager",
-                "printedName": "CoreLocation.CLLocationManager",
-                "usr": "c:objc(cs)CLLocationManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLRegion",
-                "printedName": "CoreLocation.CLRegion",
-                "usr": "c:objc(cs)CLRegion"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@OkHi@objc(cs)OkVerify(im)locationManager:didExitRegion:",
-            "mangledName": "$s4OkHi0A6VerifyC15locationManager_13didExitRegionySo010CLLocationE0C_So8CLRegionCtF",
-            "moduleName": "OkHi",
-            "objc_name": "locationManager:didExitRegion:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "locationManager",
             "printedName": "locationManager(_:monitoringDidFailFor:withError:)",
             "children": [
               {
@@ -13444,71 +13372,6 @@
           },
           {
             "kind": "Function",
-            "name": "log",
-            "printedName": "log(message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC3log7messageySS_tF",
-            "mangledName": "$s4OkHi0A9AnalyticsC3log7messageySS_tF",
-            "moduleName": "OkHi",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "log",
-            "printedName": "log(data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4OkHi0A9AnalyticsC3log4dataySDySSypG_tF",
-            "mangledName": "$s4OkHi0A9AnalyticsC3log4dataySDySSypG_tF",
-            "moduleName": "OkHi",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "startMonitoring",
             "printedName": "startMonitoring()",
             "children": [
@@ -18552,7 +18415,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 13,
-      "value": "\"1.9.14-beta\""
+      "value": "\"1.9.16-beta\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

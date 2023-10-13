@@ -298,6 +298,7 @@ SWIFT_CLASS("_TtC4OkHi11OkAnalytics")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
 @class CLLocationManager;
 @class CLRegion;
 
@@ -500,16 +501,14 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didStartMonitoringForRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
 @end
+
 
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))

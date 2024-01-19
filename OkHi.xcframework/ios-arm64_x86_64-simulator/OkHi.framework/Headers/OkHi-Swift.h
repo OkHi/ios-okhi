@@ -408,6 +408,11 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 /// returns:
 /// instance of OkHiConfig
 - (OkHiConfig * _Nonnull)withAddressTypesWithWork:(BOOL)work home:(BOOL)home SWIFT_WARN_UNUSED_RESULT;
+/// Enables different address types
+///
+/// returns:
+/// instance of OkHiConfig
+- (OkHiConfig * _Nonnull)withPermissionsOnboardingWithEnabled:(BOOL)enabled SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class CLLocation;
@@ -513,6 +518,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
++ (void)startMonitoring;
 @end
 
 @class NSEntityDescription;
@@ -989,6 +995,11 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 /// returns:
 /// instance of OkHiConfig
 - (OkHiConfig * _Nonnull)withAddressTypesWithWork:(BOOL)work home:(BOOL)home SWIFT_WARN_UNUSED_RESULT;
+/// Enables different address types
+///
+/// returns:
+/// instance of OkHiConfig
+- (OkHiConfig * _Nonnull)withPermissionsOnboardingWithEnabled:(BOOL)enabled SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class CLLocation;
@@ -1094,6 +1105,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
++ (void)startMonitoring;
 @end
 
 @class NSEntityDescription;

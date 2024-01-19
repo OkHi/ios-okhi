@@ -2535,6 +2535,46 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "serviceUnavailable",
+                "printedName": "serviceUnavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OkHi.OkHiError.ErrorCodes.Type) -> OkHi.OkHiError.ErrorCodes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCodes",
+                        "printedName": "OkHi.OkHiError.ErrorCodes",
+                        "usr": "s:4OkHi0aB5ErrorC0C5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "OkHi.OkHiError.ErrorCodes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCodes",
+                            "printedName": "OkHi.OkHiError.ErrorCodes",
+                            "usr": "s:4OkHi0aB5ErrorC0C5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4OkHi0aB5ErrorC0C5CodesO18serviceUnavailableyA2EmF",
+                "mangledName": "$s4OkHi0aB5ErrorC0C5CodesO18serviceUnavailableyA2EmF",
+                "moduleName": "OkHi",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -2935,6 +2975,86 @@
                 "declKind": "EnumElement",
                 "usr": "s:4OkHi0aB5ErrorC0C8MessagesO17missingLocationIdyA2EmF",
                 "mangledName": "$s4OkHi0aB5ErrorC0C8MessagesO17missingLocationIdyA2EmF",
+                "moduleName": "OkHi",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "serviceUnavailable",
+                "printedName": "serviceUnavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OkHi.OkHiError.ErrorMessages.Type) -> OkHi.OkHiError.ErrorMessages",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessages",
+                        "printedName": "OkHi.OkHiError.ErrorMessages",
+                        "usr": "s:4OkHi0aB5ErrorC0C8MessagesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "OkHi.OkHiError.ErrorMessages.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorMessages",
+                            "printedName": "OkHi.OkHiError.ErrorMessages",
+                            "usr": "s:4OkHi0aB5ErrorC0C8MessagesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4OkHi0aB5ErrorC0C8MessagesO18serviceUnavailableyA2EmF",
+                "mangledName": "$s4OkHi0aB5ErrorC0C8MessagesO18serviceUnavailableyA2EmF",
+                "moduleName": "OkHi",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "permisionDenied",
+                "printedName": "permisionDenied",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OkHi.OkHiError.ErrorMessages.Type) -> OkHi.OkHiError.ErrorMessages",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessages",
+                        "printedName": "OkHi.OkHiError.ErrorMessages",
+                        "usr": "s:4OkHi0aB5ErrorC0C8MessagesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "OkHi.OkHiError.ErrorMessages.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorMessages",
+                            "printedName": "OkHi.OkHiError.ErrorMessages",
+                            "usr": "s:4OkHi0aB5ErrorC0C8MessagesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4OkHi0aB5ErrorC0C8MessagesO15permisionDeniedyA2EmF",
+                "mangledName": "$s4OkHi0aB5ErrorC0C8MessagesO15permisionDeniedyA2EmF",
                 "moduleName": "OkHi",
                 "declAttributes": [
                   "RawDocComment"
@@ -6522,6 +6642,47 @@
               }
             ],
             "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StFZ",
+            "mangledName": "$s4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:clientKey:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
             "usr": "s:4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StF",
             "mangledName": "$s4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StF",
             "moduleName": "OkHi",
@@ -6581,6 +6742,30 @@
             "moduleName": "OkHi",
             "declAttributes": [
               "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OkHi@objc(cs)OkVerify(cm)startMonitoring",
+            "mangledName": "$s4OkHi0A6VerifyC15startMonitoringyyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -6753,6 +6938,30 @@
             "mangledName": "$s4OkHi0A6VerifyC25isLocationServicesEnabledSbyF",
             "moduleName": "OkHi",
             "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLocationServicesEnabled",
+            "printedName": "isLocationServicesEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC25isLocationServicesEnabledSbyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC25isLocationServicesEnabledSbyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -7023,6 +7232,30 @@
             "declKind": "Func",
             "usr": "s:4OkHi0A6VerifyC30getLocationAuthorizationStatus9clManagerSo015CLAuthorizationG0VSo010CLLocationI0C_tFZ",
             "mangledName": "$s4OkHi0A6VerifyC30getLocationAuthorizationStatus9clManagerSo015CLAuthorizationG0VSo010CLLocationI0C_tFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocationAuthorizationStatus",
+            "printedName": "getLocationAuthorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC30getLocationAuthorizationStatusSSyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC30getLocationAuthorizationStatusSSyFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -9419,8 +9652,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OkHi",
         "declAttributes": [
@@ -9429,8 +9662,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "OkHi"
       },
@@ -14096,8 +14329,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OkHi",
         "declAttributes": [
@@ -15518,6 +15751,36 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withPermissionsOnboarding",
+            "printedName": "withPermissionsOnboarding(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiConfig",
+                "printedName": "OkHi.OkHiConfig",
+                "usr": "c:@M@OkHi@objc(cs)OkHiConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OkHi@objc(cs)OkHiConfig(im)withPermissionsOnboardingWithEnabled:",
+            "mangledName": "$s4OkHi0aB6ConfigC25withPermissionsOnboarding7enabledACSb_tF",
+            "moduleName": "OkHi",
+            "objc_name": "withPermissionsOnboardingWithEnabled:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -16488,6 +16751,13 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
+      "offset": 1683,
+      "length": 21,
+      "value": "\"service_unavailable\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
       "offset": 623,
       "length": 15,
       "value": "\"unknown_error\""
@@ -16544,100 +16814,135 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 1799,
+      "offset": 1683,
+      "length": 21,
+      "value": "\"service_unavailable\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
       "length": 53,
       "value": "\"Unable to process the request. Something went wrong\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2074,
       "length": 52,
       "value": "\"Unable to establish a connection with OkHi servers\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 2277,
       "length": 79,
       "value": "\"Invalid phone number provided. Please make sure its in MSISDN standard format\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2469,
       "length": 30,
       "value": "\"Invalid credentials provided\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2485,
+      "offset": 2607,
       "length": 47,
       "value": "\"Unable to parse response received from server\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 2749,
       "length": 38,
       "value": "\"WKWebView navigation error with code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2884,
       "length": 64,
       "value": "\"Address failed to be tracked successfully. Missing location id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 1799,
+      "offset": 3049,
+      "length": 34,
+      "value": "\"Location services is unavailable\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 43,
+      "value": "\"Always location permission is not granted\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
       "length": 53,
       "value": "\"Unable to process the request. Something went wrong\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2074,
       "length": 52,
       "value": "\"Unable to establish a connection with OkHi servers\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 2277,
       "length": 79,
       "value": "\"Invalid phone number provided. Please make sure its in MSISDN standard format\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2469,
       "length": 30,
       "value": "\"Invalid credentials provided\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2485,
+      "offset": 2607,
       "length": 47,
       "value": "\"Unable to parse response received from server\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 2749,
       "length": 38,
       "value": "\"WKWebView navigation error with code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2884,
       "length": 64,
       "value": "\"Address failed to be tracked successfully. Missing location id\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
+      "offset": 3049,
+      "length": 34,
+      "value": "\"Location services is unavailable\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 43,
+      "value": "\"Always location permission is not granted\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
@@ -17958,14 +18263,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 15817,
+      "offset": 15979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 16328,
+      "offset": 16490,
       "length": 4,
       "value": "true"
     },
@@ -18140,119 +18445,147 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 173,
+      "offset": 175,
       "length": 13,
       "value": "\"iOSListener\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 218,
       "length": 12,
       "value": "\"logHandler\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 266,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 328,
       "length": 11,
       "value": "\"app_state\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 365,
+      "offset": 367,
       "length": 18,
       "value": "\"location_created\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 413,
       "length": 18,
       "value": "\"location_updated\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 460,
       "length": 19,
       "value": "\"location_selected\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 501,
       "length": 12,
       "value": "\"fatal_exit\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 533,
       "length": 10,
       "value": "\"exit_app\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 581,
+      "length": 29,
+      "value": "\"request_location_permission\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 19,
+      "value": "\"open_app_settings\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
       "length": 11,
       "value": "\"app_state\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 365,
+      "offset": 367,
       "length": 18,
       "value": "\"location_created\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 413,
       "length": 18,
       "value": "\"location_updated\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 460,
       "length": 19,
       "value": "\"location_selected\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 501,
       "length": 12,
       "value": "\"fatal_exit\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 533,
       "length": 10,
       "value": "\"exit_app\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 29,
+      "value": "\"request_location_permission\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 19,
+      "value": "\"open_app_settings\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1606,
+      "offset": 1722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1267,
       "length": 17,
       "value": "\"OkHi.WebviewController\""
     },
@@ -18414,8 +18747,8 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 326,
-      "length": 13,
-      "value": "\"1.9.16-beta\""
+      "length": 8,
+      "value": "\"1.9.17\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",
@@ -18434,189 +18767,210 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 157,
       "length": 17,
       "value": "\"select_location\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 2154,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2172,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2195,
+      "offset": 2190,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2288,
+      "offset": 2283,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2311,
+      "offset": 2306,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2333,
+      "offset": 2328,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 2347,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 7,
+      "value": "\"apple\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2535,
+      "length": 5,
+      "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2603,
+      "offset": 3093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2628,
+      "offset": 3118,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2658,
+      "offset": 3148,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 3274,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2805,
+      "offset": 3295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 3343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2899,
+      "offset": 3389,
       "length": 17,
       "value": "\"okCollectWebIOS\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2935,
+      "offset": 3425,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2987,
+      "offset": 3477,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3038,
+      "offset": 3528,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3058,
+      "offset": 3548,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3111,
+      "offset": 3601,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3638,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3750,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3244,
+      "offset": 3771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyDeviceMeta.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 394,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyDeviceMeta.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 604,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyDeviceMeta.swift",
       "kind": "BooleanLiteral",
-      "offset": 771,
+      "offset": 828,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyDeviceMeta.swift",
       "kind": "BooleanLiteral",
-      "offset": 816,
+      "offset": 873,
       "length": 5,
       "value": "false"
     },
@@ -18869,6 +19223,13 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/Helpers\/OkHiConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 334,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/Helpers\/OkHiConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 371,
       "length": 4,
       "value": "true"
     },

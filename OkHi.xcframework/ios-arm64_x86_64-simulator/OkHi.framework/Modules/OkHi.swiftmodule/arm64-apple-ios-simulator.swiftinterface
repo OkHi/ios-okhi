@@ -124,6 +124,7 @@ public class OkHiError : Swift.Error {
     case unableToParse
     case webViewInternalHttp
     case missingLocationId
+    case serviceUnavailable
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -138,6 +139,8 @@ public class OkHiError : Swift.Error {
     case unableToParse
     case webViewInternalHttp
     case missingLocationId
+    case serviceUnavailable
+    case permisionDenied
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -196,9 +199,11 @@ public protocol OkVerifyDelegate {
 }
 extension OkHi.OkVerify {
   public static func initialize(with auth: OkHi.OkHiAuth, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  public static func initialize(with branchId: Swift.String, clientKey: Swift.String, environment: Swift.String)
   public func initialize(with branchId: Swift.String, clientKey: Swift.String, environment: Swift.String)
   public func initialize(with branchId: Swift.String, clientKey: Swift.String)
   @objc dynamic public func startMonitoring()
+  @objc public static func startMonitoring()
   public func startAddressVerification(user: OkHi.OkHiUser, location: OkHi.OkHiLocation)
   public func startAddressVerification(phoneNumber: Swift.String, locationId: Swift.String, lat: Swift.Double, lon: Swift.Double)
   public func stopAddressVerification(locationId: Swift.String)
@@ -207,6 +212,7 @@ extension OkHi.OkVerify {
   public func isLocationPermissionGranted() -> Swift.Bool
   public func isBackgroundLocationPermissionGranted() -> Swift.Bool
   public func isLocationServicesEnabled() -> Swift.Bool
+  public static func isLocationServicesEnabled() -> Swift.Bool
   public static func openAppSettings()
   public static func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
@@ -220,6 +226,7 @@ extension OkHi.OkVerify {
 }
 extension OkHi.OkVerify {
   public static func getLocationAuthorizationStatus(clManager: CoreLocation.CLLocationManager) -> CoreLocation.CLAuthorizationStatus
+  public static func getLocationAuthorizationStatus() -> Swift.String
 }
 extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
@@ -442,6 +449,7 @@ public enum OkHiAccessScope : Swift.String {
   @objc public func enableStreetView() -> OkHi.OkHiConfig
   @objc public func enableAppBar() -> OkHi.OkHiConfig
   @objc public func withAddressTypes(work: Swift.Bool, home: Swift.Bool) -> OkHi.OkHiConfig
+  @objc public func withPermissionsOnboarding(enabled: Swift.Bool) -> OkHi.OkHiConfig
   @objc deinit
 }
 public enum OkVerifyError : Swift.Error {

@@ -6656,7 +6656,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(with:clientKey:environment:)",
+            "printedName": "initialize(branchId:clientKey:environment:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6683,41 +6683,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StF",
-            "mangledName": "$s4OkHi0A6VerifyC10initialize4with9clientKey11environmentySS_S2StF",
-            "moduleName": "OkHi",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(with:clientKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4OkHi0A6VerifyC10initialize4with9clientKeyySS_SStF",
-            "mangledName": "$s4OkHi0A6VerifyC10initialize4with9clientKeyySS_SStF",
+            "usr": "s:4OkHi0A6VerifyC10initialize8branchId9clientKey11environmentySS_S2StF",
+            "mangledName": "$s4OkHi0A6VerifyC10initialize8branchId9clientKey11environmentySS_S2StF",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
@@ -18263,14 +18230,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 15979,
+      "offset": 15668,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 16490,
+      "offset": 16179,
       "length": 4,
       "value": "true"
     },
@@ -18748,7 +18715,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 8,
-      "value": "\"1.9.17\""
+      "value": "\"1.9.18\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

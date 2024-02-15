@@ -200,8 +200,7 @@ public protocol OkVerifyDelegate {
 extension OkHi.OkVerify {
   public static func initialize(with auth: OkHi.OkHiAuth, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   public static func initialize(with branchId: Swift.String, clientKey: Swift.String, environment: Swift.String)
-  public func initialize(with branchId: Swift.String, clientKey: Swift.String, environment: Swift.String)
-  public func initialize(with branchId: Swift.String, clientKey: Swift.String)
+  public func initialize(branchId: Swift.String, clientKey: Swift.String, environment: Swift.String)
   @objc dynamic public func startMonitoring()
   @objc public static func startMonitoring()
   public func startAddressVerification(user: OkHi.OkHiUser, location: OkHi.OkHiLocation)

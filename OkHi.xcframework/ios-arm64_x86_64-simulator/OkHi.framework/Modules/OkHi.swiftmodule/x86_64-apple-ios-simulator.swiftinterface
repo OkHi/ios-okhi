@@ -215,7 +215,7 @@ extension OkHi.OkVerify {
   public static func openAppSettings()
   public static func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
-  public static func onStart()
+  public static func onStart(completion: ((Swift.Bool) -> Swift.Void)? = nil)
   public static func fetchGeofences() -> [OkHi.OkVerifyGeofence]
 }
 extension OkHi.OkVerify {

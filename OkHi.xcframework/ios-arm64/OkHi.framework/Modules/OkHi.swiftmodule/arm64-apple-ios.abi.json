@@ -7062,6 +7062,38 @@
           },
           {
             "kind": "Function",
+            "name": "fetchGeofences",
+            "printedName": "fetchGeofences()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkVerifyGeofence]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkVerifyGeofence",
+                    "printedName": "OkHi.OkVerifyGeofence",
+                    "usr": "c:@M@OkHi@objc(cs)OkVerifyGeofence"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC14fetchGeofencesSayAA0aC8GeofenceCGyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC14fetchGeofencesSayAA0aC8GeofenceCGyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "requestLocationPermission",
             "printedName": "requestLocationPermission()",
             "children": [
@@ -9341,6 +9373,27 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocationManager",
+            "printedName": "getLocationManager()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB15LocationManagerC03getcD0So010CLLocationD0CyF",
+            "mangledName": "$s4OkHi0aB15LocationManagerC03getcD0So010CLLocationD0CyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -18715,7 +18768,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 8,
-      "value": "\"1.9.19\""
+      "value": "\"1.9.20\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",
@@ -19231,35 +19284,35 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/CoreData\/OkVerifyCoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 422,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/CoreData\/OkVerifyCoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 575,
       "length": 29,
       "value": "\"Fail to load the data model\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/CoreData\/OkVerifyCoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 865,
       "length": 46,
       "value": "\"Unresolved error \""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/CoreData\/OkVerifyCoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 891,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/CoreData\/OkVerifyCoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 910,
       "length": 2,
       "value": "\"\""
     }

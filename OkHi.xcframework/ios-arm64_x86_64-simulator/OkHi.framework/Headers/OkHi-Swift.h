@@ -515,11 +515,11 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 @end
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
 + (void)startMonitoring;
 @end
+
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
@@ -1102,11 +1102,11 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 @end
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
 + (void)startMonitoring;
 @end
+
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;

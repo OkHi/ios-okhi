@@ -216,6 +216,7 @@ extension OkHi.OkVerify {
   public static func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func isNotificationPermissionGranted(completion: @escaping (Swift.Bool) -> Swift.Void)
   public static func onStart()
+  public static func fetchGeofences() -> [OkHi.OkVerifyGeofence]
 }
 extension OkHi.OkVerify {
   public func requestLocationPermission()
@@ -308,6 +309,7 @@ extension OkHi.OkVerifyGeofence {
 }
 @objc @_inheritsConvenienceInitializers public class OkHiLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc override dynamic public init()
+  public func getLocationManager() -> CoreLocation.CLLocationManager
   public func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?) -> Swift.Void)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)

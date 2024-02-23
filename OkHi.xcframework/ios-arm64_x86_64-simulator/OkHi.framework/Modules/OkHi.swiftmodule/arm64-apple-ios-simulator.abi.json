@@ -7040,17 +7040,44 @@
           {
             "kind": "Function",
             "name": "onStart",
-            "printedName": "onStart()",
+            "printedName": "onStart(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A6VerifyC7onStartyyFZ",
-            "mangledName": "$s4OkHi0A6VerifyC7onStartyyFZ",
+            "usr": "s:4OkHi0A6VerifyC7onStart10completionyySbcSg_tFZ",
+            "mangledName": "$s4OkHi0A6VerifyC7onStart10completionyySbcSg_tFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -18283,14 +18310,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 15668,
+      "offset": 15857,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 16179,
+      "offset": 16368,
       "length": 4,
       "value": "true"
     },
@@ -18768,7 +18795,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 8,
-      "value": "\"1.9.20\""
+      "value": "\"1.9.21\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

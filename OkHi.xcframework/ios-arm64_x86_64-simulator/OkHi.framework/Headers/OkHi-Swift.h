@@ -505,7 +505,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
@@ -513,6 +512,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
 @end
+
 
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
@@ -1092,7 +1092,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
@@ -1100,6 +1099,7 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
 @end
+
 
 
 @interface OkVerify (SWIFT_EXTENSION(OkHi))

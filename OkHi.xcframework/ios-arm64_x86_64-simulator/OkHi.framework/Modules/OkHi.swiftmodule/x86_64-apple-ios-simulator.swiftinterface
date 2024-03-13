@@ -227,6 +227,8 @@ extension OkHi.OkVerify {
 extension OkHi.OkVerify {
   public static func getLocationAuthorizationStatus(clManager: CoreLocation.CLLocationManager) -> CoreLocation.CLAuthorizationStatus
   public static func getLocationAuthorizationStatus() -> Swift.String
+  public static func fetchRegisteredGeofences() -> [[Swift.String : Any]]
+  public static func fetchRegisteredGeofences() -> [OkHi.OkVerifyGeofence]
 }
 extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)

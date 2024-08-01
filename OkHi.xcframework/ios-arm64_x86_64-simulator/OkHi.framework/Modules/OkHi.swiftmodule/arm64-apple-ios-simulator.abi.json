@@ -179,12 +179,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "OkHi.OkCollectDelegate?",
+                "printedName": "(any OkHi.OkCollectDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "OkCollectDelegate",
-                    "printedName": "OkHi.OkCollectDelegate",
+                    "printedName": "any OkHi.OkCollectDelegate",
                     "usr": "s:4OkHi0A15CollectDelegateP"
                   }
                 ],
@@ -211,12 +211,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkCollectDelegate?",
+                    "printedName": "(any OkHi.OkCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkCollectDelegate",
-                        "printedName": "OkHi.OkCollectDelegate",
+                        "printedName": "any OkHi.OkCollectDelegate",
                         "usr": "s:4OkHi0A15CollectDelegateP"
                       }
                     ],
@@ -243,12 +243,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkCollectDelegate?",
+                    "printedName": "(any OkHi.OkCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkCollectDelegate",
-                        "printedName": "OkHi.OkCollectDelegate",
+                        "printedName": "any OkHi.OkCollectDelegate",
                         "usr": "s:4OkHi0A15CollectDelegateP"
                       }
                     ],
@@ -1887,7 +1887,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "OkHi.OkHiLocationServiceDelegate?"
+                "printedName": "(any OkHi.OkHiLocationServiceDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -1913,12 +1913,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkHiLocationServiceDelegate?",
+                    "printedName": "(any OkHi.OkHiLocationServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkHiLocationServiceDelegate",
-                        "printedName": "OkHi.OkHiLocationServiceDelegate",
+                        "printedName": "any OkHi.OkHiLocationServiceDelegate",
                         "usr": "c:@M@OkHi@objc(pl)OkHiLocationServiceDelegate"
                       }
                     ],
@@ -1948,12 +1948,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkHiLocationServiceDelegate?",
+                    "printedName": "(any OkHi.OkHiLocationServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkHiLocationServiceDelegate",
-                        "printedName": "OkHi.OkHiLocationServiceDelegate",
+                        "printedName": "any OkHi.OkHiLocationServiceDelegate",
                         "usr": "c:@M@OkHi@objc(pl)OkHiLocationServiceDelegate"
                       }
                     ],
@@ -6040,7 +6040,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6068,7 +6068,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6428,12 +6428,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "OkHi.OkVerifyDelegate?",
+                "printedName": "(any OkHi.OkVerifyDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "OkVerifyDelegate",
-                    "printedName": "OkHi.OkVerifyDelegate",
+                    "printedName": "any OkHi.OkVerifyDelegate",
                     "usr": "s:4OkHi0A14VerifyDelegateP"
                   }
                 ],
@@ -6459,12 +6459,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkVerifyDelegate?",
+                    "printedName": "(any OkHi.OkVerifyDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkVerifyDelegate",
-                        "printedName": "OkHi.OkVerifyDelegate",
+                        "printedName": "any OkHi.OkVerifyDelegate",
                         "usr": "s:4OkHi0A14VerifyDelegateP"
                       }
                     ],
@@ -6491,12 +6491,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OkHi.OkVerifyDelegate?",
+                    "printedName": "(any OkHi.OkVerifyDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OkVerifyDelegate",
-                        "printedName": "OkHi.OkVerifyDelegate",
+                        "printedName": "any OkHi.OkVerifyDelegate",
                         "usr": "s:4OkHi0A14VerifyDelegateP"
                       }
                     ],
@@ -7489,7 +7489,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7539,7 +7539,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -8412,7 +8412,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8579,7 +8579,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9607,7 +9607,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -10556,7 +10556,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10581,7 +10581,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14321,7 +14321,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14349,7 +14349,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15155,7 +15155,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15180,7 +15180,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -18872,7 +18872,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 8,
-      "value": "\"1.9.35\""
+      "value": "\"1.9.36\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkHi
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OkHi
 import AdSupport
 import AppTrackingTransparency
 import SystemConfiguration.CaptiveNetwork
@@ -18,6 +17,7 @@ import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class OkHiUtils {
   public static func encode<T>(object: T) throws -> Swift.String where T : Swift.Encodable
   public static func decode<T>(json: Swift.String?, model: T.Type) throws -> T? where T : Swift.Decodable, T : Swift.Encodable
@@ -63,7 +63,7 @@ extension OkHi.OkVerifyGeofenceTransition {
   }
 }
 @_inheritsConvenienceInitializers @objc public class OkCollect : ObjectiveC.NSObject {
-  public var delegate: OkHi.OkCollectDelegate? {
+  public var delegate: (any OkHi.OkCollectDelegate)? {
     get
     set
   }
@@ -106,7 +106,7 @@ extension OkHi.OkVerifyGeofenceTransition {
   @objc func okHiLocationService(locationService: OkHi.OkHiLocationService, didChangeLocationPermissionStatus locationPermissionType: OkHi.LocationPermissionType, result: Swift.Bool)
 }
 @objc @_inheritsConvenienceInitializers public class OkHiLocationService : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
-  @objc weak public var delegate: OkHi.OkHiLocationServiceDelegate?
+  @objc weak public var delegate: (any OkHi.OkHiLocationServiceDelegate)?
   @objc override dynamic public init()
   @objc public func isLocationPermissionGranted() -> Swift.Bool
   @objc public func isLocationServicesAvailable() -> Swift.Bool
@@ -180,8 +180,8 @@ public class OkHiLocation : Swift.Codable {
   public init()
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol OkVerifyDelegate {
   func verify(_ okverify: OkHi.OkVerify, didChangeLocationPermissionStatus requestType: OkHi.OkVerifyLocationPermissionRequestType, status: Swift.Bool)
@@ -193,7 +193,7 @@ public protocol OkVerifyDelegate {
   func verify(_ okverify: OkHi.OkVerify, didUpdateNotificationPermissionStatus status: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @objc public class OkVerify : ObjectiveC.NSObject {
-  public var delegate: OkHi.OkVerifyDelegate?
+  public var delegate: (any OkHi.OkVerifyDelegate)?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -234,8 +234,8 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didStartMonitoringFor region: CoreLocation.CLRegion)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: Swift.Error)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: any Swift.Error)
 }
 @_inheritsConvenienceInitializers @objc public class OkHiTheme : ObjectiveC.NSObject {
   @objc override dynamic public init()
@@ -251,14 +251,14 @@ public class OkHiUser : Swift.Codable {
   public var id: Swift.String?
   public var email: Swift.String?
   public init()
-  required public init(from decoder: Swift.Decoder)
+  required public init(from decoder: any Swift.Decoder)
   public init(phoneNumber: Swift.String)
   public func with(firstName: Swift.String) -> OkHi.OkHiUser
   public func with(lastName: Swift.String) -> OkHi.OkHiUser
   public func with(okHiId: Swift.String) -> OkHi.OkHiUser
   public func with(email: Swift.String) -> OkHi.OkHiUser
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OkHiAuth : ObjectiveC.NSObject {
   @objc public var accessToken: Swift.String? {
@@ -314,7 +314,7 @@ extension OkHi.OkVerifyGeofence {
   public func getLocationManager() -> CoreLocation.CLLocationManager
   public func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?) -> Swift.Void)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   public func getAuthorizationStatus() -> CoreLocation.CLAuthorizationStatus
   public func isLocationPermissionGranted(withLocationServiceAvailable: Swift.Bool) -> Swift.Bool
@@ -345,8 +345,8 @@ public enum OkVerifyGeofenceTransitionType : Swift.String {
 public struct StreetView : Swift.Codable {
   public var url: Swift.String?
   public var panoId: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class OkCore : ObjectiveC.NSObject {
   @objc override dynamic public init()
@@ -389,8 +389,8 @@ extension OkHi.OkAnalytics : CoreLocation.CLLocationManagerDelegate {
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc required public init?(coder: Foundation.NSCoder)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct OkHiGeofenceConfig : Swift.Codable {
   public var radius: Swift.Int
@@ -401,8 +401,8 @@ public struct OkHiGeofenceConfig : Swift.Codable {
   public var setDwellTransitionType: Swift.Bool
   public var loiteringDelay: Swift.Int
   public init()
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension OkHi.OkVerifyUser {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<OkHi.OkVerifyUser>

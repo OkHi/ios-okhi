@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double OkHiVersionNumber;
 FOUNDATION_EXPORT const unsigned char OkHiVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <OkHi/PublicHeader.h>
-
+#import <CoreLocation/CoreLocation.h>
+#import <CoreData/CoreData.h>
 

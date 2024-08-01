@@ -1,7 +1,7 @@
 framework module OkHi {
   umbrella header "OkHi.h"
-
   export *
+
   module * { export * }
 }
 

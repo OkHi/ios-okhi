@@ -562,11 +562,11 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
 + (void)startMonitoring;
 @end
-
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
@@ -583,6 +583,10 @@ SWIFT_CLASS("_TtC4OkHi16OkVerifyGeofence")
 @property (nonatomic) double longitude;
 @property (nonatomic) double radius;
 @property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic) BOOL withAppOpenTracking;
+@property (nonatomic) BOOL withNativeGeofenceTracking;
+@property (nonatomic, copy) NSString * _Nullable bearerToken;
+@property (nonatomic, copy) NSString * _Nullable env;
 @end
 
 
@@ -1196,11 +1200,11 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
+
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
 + (void)startMonitoring;
 @end
-
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
@@ -1217,6 +1221,10 @@ SWIFT_CLASS("_TtC4OkHi16OkVerifyGeofence")
 @property (nonatomic) double longitude;
 @property (nonatomic) double radius;
 @property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic) BOOL withAppOpenTracking;
+@property (nonatomic) BOOL withNativeGeofenceTracking;
+@property (nonatomic, copy) NSString * _Nullable bearerToken;
+@property (nonatomic, copy) NSString * _Nullable env;
 @end
 
 

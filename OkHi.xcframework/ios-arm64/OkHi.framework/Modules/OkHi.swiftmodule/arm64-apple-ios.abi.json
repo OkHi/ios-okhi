@@ -5965,6 +5965,117 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "verificationTypes",
+            "printedName": "verificationTypes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC17verificationTypesSaySSGvp",
+            "mangledName": "$s4OkHi0aB8LocationC17verificationTypesSaySSGvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC17verificationTypesSaySSGvg",
+                "mangledName": "$s4OkHi0aB8LocationC17verificationTypesSaySSGvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC17verificationTypesSaySSGvs",
+                "mangledName": "$s4OkHi0aB8LocationC17verificationTypesSaySSGvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC17verificationTypesSaySSGvM",
+                "mangledName": "$s4OkHi0aB8LocationC17verificationTypesSaySSGvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -6775,7 +6886,7 @@
           {
             "kind": "Function",
             "name": "startAddressVerification",
-            "printedName": "startAddressVerification(phoneNumber:locationId:lat:lon:)",
+            "printedName": "startAddressVerification(phoneNumber:locationId:lat:lon:verificationTypes:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6805,11 +6916,33 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[OkHi.OkHiVerificationType]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OkHi.OkHiVerificationType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OkHiVerificationType",
+                        "printedName": "OkHi.OkHiVerificationType",
+                        "usr": "s:4OkHi0aB16VerificationTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A6VerifyC24startAddressVerification11phoneNumber10locationId3lat3lonySS_SSS2dtF",
-            "mangledName": "$s4OkHi0A6VerifyC24startAddressVerification11phoneNumber10locationId3lat3lonySS_SSS2dtF",
+            "usr": "s:4OkHi0A6VerifyC24startAddressVerification11phoneNumber10locationId3lat3lon17verificationTypesySS_SSS2dSayAA0abF4TypeOGSgtF",
+            "mangledName": "$s4OkHi0A6VerifyC24startAddressVerification11phoneNumber10locationId3lat3lon17verificationTypesySS_SSS2dSayAA0abF4TypeOGSgtF",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
@@ -7359,6 +7492,38 @@
             "declKind": "Func",
             "usr": "s:4OkHi0A6VerifyC24fetchRegisteredGeofencesSayAA0aC8GeofenceCGyFZ",
             "mangledName": "$s4OkHi0A6VerifyC24fetchRegisteredGeofencesSayAA0aC8GeofenceCGyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopAll",
+            "printedName": "stopAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC7stopAllSaySSGyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC7stopAllSaySSGyFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -9425,23 +9590,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "OkHi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OkHi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -9776,6 +9924,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9877,6 +10042,329 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OkHiVerificationType",
+        "printedName": "OkHiVerificationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "physical",
+            "printedName": "physical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OkHi.OkHiVerificationType.Type) -> OkHi.OkHiVerificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OkHi.OkHiVerificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OkHiVerificationType",
+                        "printedName": "OkHi.OkHiVerificationType",
+                        "usr": "s:4OkHi0aB16VerificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4OkHi0aB16VerificationTypeO8physicalyA2CmF",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO8physicalyA2CmF",
+            "moduleName": "OkHi"
+          },
+          {
+            "kind": "Var",
+            "name": "digital",
+            "printedName": "digital",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OkHi.OkHiVerificationType.Type) -> OkHi.OkHiVerificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OkHi.OkHiVerificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OkHiVerificationType",
+                        "printedName": "OkHi.OkHiVerificationType",
+                        "usr": "s:4OkHi0aB16VerificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4OkHi0aB16VerificationTypeO7digitalyA2CmF",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO7digitalyA2CmF",
+            "moduleName": "OkHi"
+          },
+          {
+            "kind": "Function",
+            "name": "isDigital",
+            "printedName": "isDigital(verificationTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB16VerificationTypeO9isDigital17verificationTypesSbSayACG_tFZ",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO9isDigital17verificationTypesSbSayACG_tFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isOnlyPhysical",
+            "printedName": "isOnlyPhysical(verificationTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB16VerificationTypeO14isOnlyPhysical17verificationTypesSbSayACG_tFZ",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO14isOnlyPhysical17verificationTypesSbSayACG_tFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "containsOnly",
+            "printedName": "containsOnly(verificationTypes:verificationType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiVerificationType",
+                "printedName": "OkHi.OkHiVerificationType",
+                "usr": "s:4OkHi0aB16VerificationTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB16VerificationTypeO12containsOnly17verificationTypes0gD0SbSayACG_ACtFZ",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO12containsOnly17verificationTypes0gD0SbSayACG_ACtFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB16VerificationTypeO8rawValueSSvp",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO8rawValueSSvp",
+            "moduleName": "OkHi",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB16VerificationTypeO8rawValueSSvg",
+                "mangledName": "$s4OkHi0aB16VerificationTypeO8rawValueSSvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OkHi.OkHiVerificationType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4OkHi0aB16VerificationTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "OkHi",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:4OkHi0aB16VerificationTypeO",
+        "mangledName": "$s4OkHi0aB16VerificationTypeO",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
         ]
       },
       {
@@ -13500,6 +13988,370 @@
                 "accessorKind": "set"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "withAppOpenTracking",
+            "printedName": "withAppOpenTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(py)withAppOpenTracking",
+            "mangledName": "$s4OkHi0A14VerifyGeofenceC19withAppOpenTrackingSbvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)withAppOpenTracking",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC19withAppOpenTrackingSbvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)setWithAppOpenTracking:",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC19withAppOpenTrackingSbvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "withNativeGeofenceTracking",
+            "printedName": "withNativeGeofenceTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(py)withNativeGeofenceTracking",
+            "mangledName": "$s4OkHi0A14VerifyGeofenceC010withNativeD8TrackingSbvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)withNativeGeofenceTracking",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC010withNativeD8TrackingSbvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)setWithNativeGeofenceTracking:",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC010withNativeD8TrackingSbvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bearerToken",
+            "printedName": "bearerToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(py)bearerToken",
+            "mangledName": "$s4OkHi0A14VerifyGeofenceC11bearerTokenSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)bearerToken",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC11bearerTokenSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)setBearerToken:",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC11bearerTokenSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(py)env",
+            "mangledName": "$s4OkHi0A14VerifyGeofenceC3envSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)env",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC3envSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@OkHi@objc(cs)OkVerifyGeofence(im)setEnv:",
+                "mangledName": "$s4OkHi0A14VerifyGeofenceC3envSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -15905,6 +16757,42 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withVerificationTypes",
+            "printedName": "withVerificationTypes(verificationTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiConfig",
+                "printedName": "OkHi.OkHiConfig",
+                "usr": "c:@M@OkHi@objc(cs)OkHiConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB6ConfigC21withVerificationTypes012verificationF0ACSayAA0abE4TypeOG_tF",
+            "mangledName": "$s4OkHi0aB6ConfigC21withVerificationTypes012verificationF0ACSayAA0abE4TypeOG_tF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -17204,170 +18092,184 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 2816,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2735,
+      "offset": 2852,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2778,
+      "offset": 2895,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2842,
+      "offset": 2959,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2997,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2926,
+      "offset": 3043,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3088,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3126,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3180,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3261,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3190,
+      "offset": 3307,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3319,
+      "offset": 3436,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 3484,
+      "length": 20,
+      "value": "\"verification_types\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 2816,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2735,
+      "offset": 2852,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2778,
+      "offset": 2895,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2842,
+      "offset": 2959,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2997,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2926,
+      "offset": 3043,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3088,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3126,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3180,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3261,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3190,
+      "offset": 3307,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3319,
+      "offset": 3436,
       "length": 14,
       "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 3484,
+      "length": 20,
+      "value": "\"verification_types\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/Extensions\/UIDevice+Extension.swift",
@@ -18387,14 +19289,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 16285,
+      "offset": 19193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 16796,
+      "offset": 19704,
       "length": 4,
       "value": "true"
     },
@@ -18567,6 +19469,48 @@
       "value": "\"https:\/\/api.okhi.io\/v5\/devices\/ping\""
     },
     {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 70,
+      "value": "\"https:\/\/dev-api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 74,
+      "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
+      "length": 66,
+      "value": "\"https:\/\/api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 64,
+      "value": "\"https:\/\/dev-api.okhi.io\/v5\/locations\/:locationId\/verifications\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 68,
+      "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/locations\/:locationId\/verifications\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
+      "kind": "StringLiteral",
+      "offset": 1940,
+      "length": 60,
+      "value": "\"https:\/\/api.okhi.io\/v5\/locations\/:locationId\/verifications\""
+    },
+    {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
       "offset": 175,
@@ -18712,6 +19656,34 @@
       "offset": 1267,
       "length": 17,
       "value": "\"OkHi.WebviewController\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerificationType.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 10,
+      "value": "\"physical\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerificationType.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 9,
+      "value": "\"digital\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerificationType.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 10,
+      "value": "\"physical\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerificationType.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 9,
+      "value": "\"digital\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/NetworkHelper.swift",
@@ -18871,8 +19843,8 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 326,
-      "length": 8,
-      "value": "\"1.9.36\""
+      "length": 13,
+      "value": "\"1.9.37-beta\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",
@@ -18887,6 +19859,20 @@
       "offset": 148,
       "length": 8,
       "value": "\"OkHi.GeoPoint\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Geofence.swift",
+      "kind": "BooleanLiteral",
+      "offset": 331,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Geofence.swift",
+      "kind": "BooleanLiteral",
+      "offset": 373,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
@@ -19087,14 +20073,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "StringLiteral",
-      "offset": 4371,
+      "offset": 4439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/JsonPayload\/LaunchPayload.swift",
       "kind": "BooleanLiteral",
-      "offset": 4392,
+      "offset": 4460,
       "length": 5,
       "value": "false"
     },

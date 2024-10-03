@@ -6140,6 +6140,59 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(identifier:lat:lon:verificationTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiLocation",
+                "printedName": "OkHi.OkHiLocation",
+                "usr": "s:4OkHi0aB8LocationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4OkHi0aB8LocationC10identifier3lat3lon17verificationTypesACSS_S2dSayAA0aB16VerificationTypeOGtcfc",
+            "mangledName": "$s4OkHi0aB8LocationC10identifier3lat3lon17verificationTypesACSS_S2dSayAA0aB16VerificationTypeOGtcfc",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -10240,6 +10293,94 @@
             "declKind": "Func",
             "usr": "s:4OkHi0aB16VerificationTypeO12containsOnly17verificationTypes0gD0SbSayACG_ACtFZ",
             "mangledName": "$s4OkHi0aB16VerificationTypeO12containsOnly17verificationTypes0gD0SbSayACG_ACtFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toStringArray",
+            "printedName": "toStringArray(verificationTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB16VerificationTypeO13toStringArray17verificationTypesSaySSGSayACG_tFZ",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO13toStringArray17verificationTypesSaySSGSayACG_tFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromStringArray",
+            "printedName": "fromStringArray(strings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OkHi.OkHiVerificationType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiVerificationType",
+                    "printedName": "OkHi.OkHiVerificationType",
+                    "usr": "s:4OkHi0aB16VerificationTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB16VerificationTypeO15fromStringArray7stringsSayACGSaySSG_tFZ",
+            "mangledName": "$s4OkHi0aB16VerificationTypeO15fromStringArray7stringsSayACGSaySSG_tFZ",
             "moduleName": "OkHi",
             "static": true,
             "declAttributes": [
@@ -18092,182 +18233,182 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 3133,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 3169,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2895,
+      "offset": 3212,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3276,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 3314,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 3360,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3088,
+      "offset": 3405,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3443,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3180,
+      "offset": 3497,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3578,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3624,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3753,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3484,
+      "offset": 3801,
       "length": 20,
       "value": "\"verification_types\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 3133,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 3169,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2895,
+      "offset": 3212,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3276,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 3314,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 3360,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3088,
+      "offset": 3405,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3443,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3180,
+      "offset": 3497,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3578,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3624,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3753,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3484,
+      "offset": 3801,
       "length": 20,
       "value": "\"verification_types\""
     },
@@ -19289,14 +19430,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 19193,
+      "offset": 19431,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 19704,
+      "offset": 19942,
       "length": 4,
       "value": "true"
     },
@@ -19844,7 +19985,7 @@
       "kind": "StringLiteral",
       "offset": 326,
       "length": 8,
-      "value": "\"1.9.39\""
+      "value": "\"1.9.40\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

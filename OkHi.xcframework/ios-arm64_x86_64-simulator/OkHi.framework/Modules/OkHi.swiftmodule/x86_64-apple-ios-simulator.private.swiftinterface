@@ -180,6 +180,7 @@ public class OkHiLocation : Swift.Codable {
   public var verificationTypes: [Swift.String]
   public init()
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double)
+  public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double, verificationTypes: [OkHi.OkHiVerificationType])
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -348,6 +349,8 @@ public enum OkHiVerificationType : Swift.String {
   public static func isDigital(verificationTypes: [OkHi.OkHiVerificationType]) -> Swift.Bool
   public static func isOnlyPhysical(verificationTypes: [OkHi.OkHiVerificationType]) -> Swift.Bool
   public static func containsOnly(verificationTypes: [OkHi.OkHiVerificationType], verificationType: OkHi.OkHiVerificationType) -> Swift.Bool
+  public static func toStringArray(verificationTypes: [OkHi.OkHiVerificationType]) -> [Swift.String]
+  public static func fromStringArray(strings: [Swift.String]) -> [OkHi.OkHiVerificationType]
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

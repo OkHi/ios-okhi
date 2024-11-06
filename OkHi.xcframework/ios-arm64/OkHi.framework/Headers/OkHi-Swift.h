@@ -367,17 +367,6 @@ SWIFT_CLASS("_TtC4OkHi9OkCollect")
 + (void)initializeWith:(OkHiAuth * _Nonnull)okHiAuth;
 @end
 
-
-/// Defines OkHiCore class
-SWIFT_CLASS("_TtC4OkHi6OkCore")
-@interface OkCore : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Initializes OkHiCore
-/// \param okHiAuth authorization object
-///
-- (nonnull instancetype)initWithOkHiAuth:(OkHiAuth * _Nonnull)okHiAuth OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 @class OkHiAppMeta;
 
@@ -455,11 +444,6 @@ SWIFT_CLASS("_TtC4OkHi10OkHiConfig")
 /// returns:
 /// instance of OkHiConfig
 - (OkHiConfig * _Nonnull)withAddressTypesWithWork:(BOOL)work home:(BOOL)home SWIFT_WARN_UNUSED_RESULT;
-/// Enables different address types
-///
-/// returns:
-/// instance of OkHiConfig
-- (OkHiConfig * _Nonnull)withPermissionsOnboardingWithEnabled:(BOOL)enabled SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class CLLocation;
@@ -551,7 +535,6 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi)) <CLLocationManagerDelegate>
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
@@ -562,11 +545,11 @@ SWIFT_CLASS("_TtC4OkHi8OkVerify")
 
 
 
-
 @interface OkVerify (SWIFT_EXTENSION(OkHi))
 - (void)startMonitoring;
 + (void)startMonitoring;
 @end
+
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
@@ -607,21 +590,6 @@ SWIFT_CLASS("_TtC4OkHi26OkVerifyGeofenceTransition")
 @property (nonatomic) double longitude;
 @property (nonatomic, copy) NSString * _Nullable transition;
 @property (nonatomic, copy) NSDate * _Nullable transitionDate;
-@end
-
-
-SWIFT_CLASS("_TtC4OkHi12OkVerifyUser")
-@interface OkVerifyUser : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface OkVerifyUser (SWIFT_EXTENSION(OkHi))
-@property (nonatomic, copy) NSString * _Nullable accessToken;
-@property (nonatomic, copy) NSString * _Nullable bearerToken;
-@property (nonatomic, copy) NSString * _Nullable environment;
-@property (nonatomic, copy) NSString * _Nullable id;
-@property (nonatomic, copy) NSString * _Nullable phoneNumber;
 @end
 
 

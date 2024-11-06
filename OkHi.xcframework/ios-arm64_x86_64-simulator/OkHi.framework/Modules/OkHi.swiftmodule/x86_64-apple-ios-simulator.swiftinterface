@@ -21,6 +21,7 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class OkHiUtils {
   public static func encode<T>(object: T) throws -> Swift.String where T : Swift.Encodable
   public static func decode<T>(json: Swift.String?, model: T.Type) throws -> T? where T : Swift.Decodable, T : Swift.Encodable
+  public static func logger(log: Swift.String)
   @objc deinit
 }
 extension OkHi.OkVerifyGeofenceTransition {
@@ -76,6 +77,7 @@ extension OkHi.OkVerifyGeofenceTransition {
     get
   }
   public func viewController(with okHiUser: OkHi.OkHiUser, okHiTheme: OkHi.OkHiTheme, okHiConfig: OkHi.OkHiConfig) -> UIKit.UIViewController?
+  public func viewController(with okHiUser: OkHi.OkHiUser, okhiLocation: OkHi.OkHiLocation?, okHiTheme: OkHi.OkHiTheme, okHiConfig: OkHi.OkHiConfig) -> UIKit.UIViewController?
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class OkHiAppContext : ObjectiveC.NSObject {
@@ -177,10 +179,10 @@ public class OkHiLocation : Swift.Codable {
   public var state: Swift.String?
   public var countryCode: Swift.String?
   public var country: Swift.String?
-  public var verificationTypes: [Swift.String]
+  public var usageTypes: [Swift.String]
   public init()
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double)
-  public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double, verificationTypes: [OkHi.OkHiVerificationType])
+  public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double, usageTypes: [OkHi.OkHiUsageType])
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -206,7 +208,6 @@ extension OkHi.OkVerify {
   @objc dynamic public func startMonitoring()
   @objc public static func startMonitoring()
   public func startAddressVerification(user: OkHi.OkHiUser, location: OkHi.OkHiLocation)
-  public func startAddressVerification(phoneNumber: Swift.String, locationId: Swift.String, lat: Swift.Double, lon: Swift.Double, verificationTypes: [OkHi.OkHiVerificationType]?)
   public func stopAddressVerification(locationId: Swift.String)
 }
 extension OkHi.OkVerify {
@@ -253,6 +254,8 @@ public class OkHiUser : Swift.Codable {
   public var lastName: Swift.String?
   public var id: Swift.String?
   public var email: Swift.String?
+  public var appUserId: Swift.String?
+  public var token: Swift.String?
   public init()
   required public init(from decoder: any Swift.Decoder)
   public init(phoneNumber: Swift.String)
@@ -260,6 +263,8 @@ public class OkHiUser : Swift.Codable {
   public func with(lastName: Swift.String) -> OkHi.OkHiUser
   public func with(okHiId: Swift.String) -> OkHi.OkHiUser
   public func with(email: Swift.String) -> OkHi.OkHiUser
+  public func with(appUserId: Swift.String) -> OkHi.OkHiUser
+  public func with(token: Swift.String) -> OkHi.OkHiUser
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -271,6 +276,10 @@ public class OkHiUser : Swift.Codable {
   @objc final public let appContext: OkHi.OkHiAppContext
   @objc public init(branchId: Swift.String, clientKey: Swift.String, environment: OkHi.Environment, appContext: OkHi.OkHiAppContext? = nil)
   public init(branchId: Swift.String, clientKey: Swift.String, environment: Swift.String, appContext: OkHi.OkHiAppContext? = nil)
+  public static func getBranchId() -> Swift.String?
+  public static func getClientKey() -> Swift.String?
+  public static func getEnvironment() -> Swift.String
+  public static func getAccesToken() -> Swift.String?
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OkPreferences : ObjectiveC.NSObject {
@@ -343,14 +352,17 @@ public protocol OkCollectDelegate {
   func collect(didEncounterError error: OkHi.OkHiError)
   func collect(didSelectAddress user: OkHi.OkHiUser, location: OkHi.OkHiLocation)
 }
-public enum OkHiVerificationType : Swift.String {
-  case physical
-  case digital
-  public static func isDigital(verificationTypes: [OkHi.OkHiVerificationType]) -> Swift.Bool
-  public static func isOnlyPhysical(verificationTypes: [OkHi.OkHiVerificationType]) -> Swift.Bool
-  public static func containsOnly(verificationTypes: [OkHi.OkHiVerificationType], verificationType: OkHi.OkHiVerificationType) -> Swift.Bool
-  public static func toStringArray(verificationTypes: [OkHi.OkHiVerificationType]) -> [Swift.String]
-  public static func fromStringArray(strings: [Swift.String]) -> [OkHi.OkHiVerificationType]
+public enum OkHiUsageType : Swift.String {
+  case physicalVerification
+  case digitalVerification
+  case addressBook
+  public static func isDigital(usageTypes: [OkHi.OkHiUsageType]) -> Swift.Bool
+  public static func isOnlyPhysical(usageTypes: [OkHi.OkHiUsageType]) -> Swift.Bool
+  public static func isOnlyAddressBook(usageTypes: [OkHi.OkHiUsageType]) -> Swift.Bool
+  public static func containsOnly(usageTypes: [OkHi.OkHiUsageType], usageType: OkHi.OkHiUsageType) -> Swift.Bool
+  public static func toStringArray(usageTypes: [OkHi.OkHiUsageType]) -> [Swift.String]
+  public static func fromStringArray(strings: [Swift.String]) -> [OkHi.OkHiUsageType]
+  public static func isOnlyAppOpenEvents(usageTypes: [OkHi.OkHiUsageType]) -> Swift.Bool
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -380,20 +392,6 @@ public struct StreetView : Swift.Codable {
   public var panoId: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-@_inheritsConvenienceInitializers @objc public class OkCore : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc public init(okHiAuth: OkHi.OkHiAuth)
-  public func anonymousSignInWith(phoneNumber: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkHi.OkHiError>) -> Swift.Void)
-  public func anonymousSignInWith(userId: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkHi.OkHiError>) -> Swift.Void)
-  public func getConfiguration(authToken: Swift.String, completion: @escaping (Swift.Result<OkHi.OkHiGeofenceConfig, OkHi.OkHiError>) -> Swift.Void)
-  public func transitEvents(with jsonData: Foundation.Data? = nil, accessToken: Swift.String, completion: @escaping (Swift.Result<Swift.String, OkHi.OkHiError>) -> Swift.Void)
-  public func sendDeviceHealthInfo(accessToken: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, OkHi.OkHiError>) -> Swift.Void)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers public class OkVerifyUser : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class OkVerifyGeofenceTransition : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -437,29 +435,6 @@ public struct OkHiGeofenceConfig : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension OkHi.OkVerifyUser {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<OkHi.OkVerifyUser>
-  @objc @NSManaged dynamic public var accessToken: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var bearerToken: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var environment: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var id: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var phoneNumber: Swift.String? {
-    @objc get
-    @objc set
-  }
-}
 @objc public enum Environment : Swift.Int {
   case prod
   case sandbox
@@ -485,8 +460,7 @@ public enum OkHiAccessScope : Swift.String {
   @objc public func enableStreetView() -> OkHi.OkHiConfig
   @objc public func enableAppBar() -> OkHi.OkHiConfig
   @objc public func withAddressTypes(work: Swift.Bool, home: Swift.Bool) -> OkHi.OkHiConfig
-  @objc public func withPermissionsOnboarding(enabled: Swift.Bool) -> OkHi.OkHiConfig
-  public func withVerificationTypes(verificationTypes: [OkHi.OkHiVerificationType]) -> OkHi.OkHiConfig
+  public func withUsageTypes(usageTypes: [OkHi.OkHiUsageType]) -> OkHi.OkHiConfig
   @objc deinit
 }
 public enum OkVerifyError : Swift.Error {
@@ -527,9 +501,9 @@ extension OkHi.OkHiError.ErrorCodes : Swift.RawRepresentable {}
 extension OkHi.OkHiError.ErrorMessages : Swift.Equatable {}
 extension OkHi.OkHiError.ErrorMessages : Swift.Hashable {}
 extension OkHi.OkHiError.ErrorMessages : Swift.RawRepresentable {}
-extension OkHi.OkHiVerificationType : Swift.Equatable {}
-extension OkHi.OkHiVerificationType : Swift.Hashable {}
-extension OkHi.OkHiVerificationType : Swift.RawRepresentable {}
+extension OkHi.OkHiUsageType : Swift.Equatable {}
+extension OkHi.OkHiUsageType : Swift.Hashable {}
+extension OkHi.OkHiUsageType : Swift.RawRepresentable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Equatable {}
 extension OkHi.OkVerifyLocationPermissionRequestType : Swift.Hashable {}
 extension OkHi.OkVerifyGeofenceTransitionType : Swift.Equatable {}

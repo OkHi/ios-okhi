@@ -211,6 +211,8 @@ extension OkHi.OkVerify {
   public func stopAddressVerification(locationId: Swift.String)
 }
 extension OkHi.OkVerify {
+  public static func isLocationPermissionGranted() -> Swift.Bool
+  public static func isBackgroundLocationPermissionGranted() -> Swift.Bool
   public func isLocationPermissionGranted() -> Swift.Bool
   public func isBackgroundLocationPermissionGranted() -> Swift.Bool
   public func isLocationServicesEnabled() -> Swift.Bool

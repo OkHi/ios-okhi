@@ -19352,9 +19352,16 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 322,
+      "length": 19,
+      "value": "\"okVerifyMobileIOS\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
       "length": 8,
-      "value": "\"1.9.42\""
+      "value": "\"1.9.43\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

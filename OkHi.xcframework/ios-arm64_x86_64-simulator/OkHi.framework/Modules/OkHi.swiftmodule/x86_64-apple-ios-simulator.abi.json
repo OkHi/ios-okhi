@@ -7066,6 +7066,54 @@
               }
             ],
             "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC27isLocationPermissionGrantedSbyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC27isLocationPermissionGrantedSbyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isBackgroundLocationPermissionGranted",
+            "printedName": "isBackgroundLocationPermissionGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC37isBackgroundLocationPermissionGrantedSbyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC37isBackgroundLocationPermissionGrantedSbyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLocationPermissionGranted",
+            "printedName": "isLocationPermissionGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
             "usr": "s:4OkHi0A6VerifyC27isLocationPermissionGrantedSbyF",
             "mangledName": "$s4OkHi0A6VerifyC27isLocationPermissionGrantedSbyF",
             "moduleName": "OkHi",
@@ -18729,14 +18777,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 13467,
+      "offset": 13795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 13978,
+      "offset": 14306,
       "length": 4,
       "value": "true"
     },
@@ -19086,6 +19134,13 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
+      "offset": 688,
+      "length": 22,
+      "value": "\"get_current_position\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
       "offset": 328,
       "length": 11,
       "value": "\"app_state\""
@@ -19141,15 +19196,22 @@
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 22,
+      "value": "\"get_current_position\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1730,
+      "offset": 1783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1320,
       "length": 17,
       "value": "\"OkHi.WebviewController\""
     },
@@ -19361,7 +19423,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.9.43\""
+      "value": "\"1.9.44\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

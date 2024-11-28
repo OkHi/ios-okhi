@@ -6996,7 +6996,7 @@
           {
             "kind": "Function",
             "name": "startAddressVerification",
-            "printedName": "startAddressVerification(user:location:)",
+            "printedName": "startAddressVerification(response:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7005,20 +7005,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OkHiUser",
-                "printedName": "OkHi.OkHiUser",
-                "usr": "s:4OkHi0aB4UserC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OkHiLocation",
-                "printedName": "OkHi.OkHiLocation",
-                "usr": "s:4OkHi0aB8LocationC"
+                "name": "OkCollectSuccessResponse",
+                "printedName": "OkHi.OkCollectSuccessResponse",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A6VerifyC24startAddressVerification4user8locationyAA0aB4UserC_AA0aB8LocationCtF",
-            "mangledName": "$s4OkHi0A6VerifyC24startAddressVerification4user8locationyAA0aB4UserC_AA0aB8LocationCtF",
+            "usr": "s:4OkHi0A6VerifyC24startAddressVerification8responseyAA0A22CollectSuccessResponseC_tF",
+            "mangledName": "$s4OkHi0A6VerifyC24startAddressVerification8responseyAA0A22CollectSuccessResponseC_tF",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
@@ -10519,7 +10513,7 @@
           {
             "kind": "Function",
             "name": "collect",
-            "printedName": "collect(didSelectAddress:location:)",
+            "printedName": "collect(didSelectAddress:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10528,20 +10522,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OkHiUser",
-                "printedName": "OkHi.OkHiUser",
-                "usr": "s:4OkHi0aB4UserC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OkHiLocation",
-                "printedName": "OkHi.OkHiLocation",
-                "usr": "s:4OkHi0aB8LocationC"
+                "name": "OkCollectSuccessResponse",
+                "printedName": "OkHi.OkCollectSuccessResponse",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4OkHi0A15CollectDelegateP7collect16didSelectAddress8locationyAA0aB4UserC_AA0aB8LocationCtF",
-            "mangledName": "$s4OkHi0A15CollectDelegateP7collect16didSelectAddress8locationyAA0aB4UserC_AA0aB8LocationCtF",
+            "usr": "s:4OkHi0A15CollectDelegateP7collect16didSelectAddressyAA0aC15SuccessResponseC_tF",
+            "mangledName": "$s4OkHi0A15CollectDelegateP7collect16didSelectAddressyAA0aC15SuccessResponseC_tF",
             "moduleName": "OkHi",
             "genericSig": "<τ_0_0 where τ_0_0 : OkHi.OkCollectDelegate>",
             "sugared_genericSig": "<Self where Self : OkHi.OkCollectDelegate>",
@@ -11878,6 +11866,233 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OkHi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OkCollectSuccessResponse",
+        "printedName": "OkCollectSuccessResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiUser",
+                "printedName": "OkHi.OkHiUser",
+                "usr": "s:4OkHi0aB4UserC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvp",
+            "mangledName": "$s4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiUser",
+                    "printedName": "OkHi.OkHiUser",
+                    "usr": "s:4OkHi0aB4UserC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvg",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiUser",
+                    "printedName": "OkHi.OkHiUser",
+                    "usr": "s:4OkHi0aB4UserC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvs",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvM",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC4userAA0aB4UserCvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiLocation",
+                "printedName": "OkHi.OkHiLocation",
+                "usr": "s:4OkHi0aB8LocationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvp",
+            "mangledName": "$s4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiLocation",
+                    "printedName": "OkHi.OkHiLocation",
+                    "usr": "s:4OkHi0aB8LocationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvg",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OkHiLocation",
+                    "printedName": "OkHi.OkHiLocation",
+                    "usr": "s:4OkHi0aB8LocationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvs",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvM",
+                "mangledName": "$s4OkHi0A22CollectSuccessResponseC8locationAA0aB8LocationCvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(user:location:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkCollectSuccessResponse",
+                "printedName": "OkHi.OkCollectSuccessResponse",
+                "usr": "s:4OkHi0A22CollectSuccessResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiUser",
+                "printedName": "OkHi.OkHiUser",
+                "usr": "s:4OkHi0aB4UserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiLocation",
+                "printedName": "OkHi.OkHiLocation",
+                "usr": "s:4OkHi0aB8LocationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4OkHi0A22CollectSuccessResponseC4user8locationAcA0aB4UserC_AA0aB8LocationCtcfc",
+            "mangledName": "$s4OkHi0A22CollectSuccessResponseC4user8locationAcA0aB4UserC_AA0aB8LocationCtcfc",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4OkHi0A22CollectSuccessResponseC",
+        "mangledName": "$s4OkHi0A22CollectSuccessResponseC",
+        "moduleName": "OkHi",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -18777,14 +18992,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 13795,
+      "offset": 13217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 14306,
+      "offset": 13728,
       "length": 4,
       "value": "true"
     },
@@ -18931,126 +19146,105 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 178,
-      "length": 50,
-      "value": "\"https:\/\/dev-api.okhi.io\/v5\/auth\/anonymous-signin\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
-      "kind": "StringLiteral",
-      "offset": 284,
-      "length": 54,
-      "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/auth\/anonymous-signin\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
-      "kind": "StringLiteral",
-      "offset": 391,
-      "length": 46,
-      "value": "\"https:\/\/api.okhi.io\/v5\/auth\/anonymous-signin\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
+      "offset": 185,
       "length": 42,
       "value": "\"https:\/\/dev-api.okhi.io\/v5\/verify\/config\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 290,
       "length": 46,
       "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/verify\/config\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 396,
       "length": 38,
       "value": "\"https:\/\/api.okhi.io\/v5\/verify\/config\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 809,
+      "offset": 493,
       "length": 43,
       "value": "\"https:\/\/dev-api.okhi.io\/v5\/users\/transits\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 594,
       "length": 47,
       "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/users\/transits\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 696,
       "length": 39,
       "value": "\"https:\/\/api.okhi.io\/v5\/users\/transits\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 788,
       "length": 41,
       "value": "\"https:\/\/dev-api.okhi.io\/v5\/devices\/ping\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 881,
       "length": 45,
       "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/devices\/ping\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 975,
       "length": 37,
       "value": "\"https:\/\/api.okhi.io\/v5\/devices\/ping\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1060,
       "length": 70,
       "value": "\"https:\/\/dev-api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1176,
       "length": 74,
       "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1293,
       "length": 66,
       "value": "\"https:\/\/api.okhi.io\/v5\/locations\/:locationId\/verifications\/start\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1405,
       "length": 64,
       "value": "\"https:\/\/dev-api.okhi.io\/v5\/locations\/:locationId\/verifications\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 1514,
       "length": 68,
       "value": "\"https:\/\/sandbox-api.okhi.io\/v5\/locations\/:locationId\/verifications\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUrl.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1624,
       "length": 60,
       "value": "\"https:\/\/api.okhi.io\/v5\/locations\/:locationId\/verifications\""
     },
@@ -19204,14 +19398,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1783,
+      "offset": 1911,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1320,
+      "offset": 1448,
       "length": 17,
       "value": "\"OkHi.WebviewController\""
     },
@@ -19423,7 +19617,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.9.45\""
+      "value": "\"1.9.46\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

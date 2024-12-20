@@ -10539,6 +10539,35 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collect",
+            "printedName": "collect(onClose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A15CollectDelegateP7collect7onCloseyyt_tF",
+            "mangledName": "$s4OkHi0A15CollectDelegateP7collect7onCloseyyt_tF",
+            "moduleName": "OkHi",
+            "genericSig": "<τ_0_0 where τ_0_0 : OkHi.OkCollectDelegate>",
+            "sugared_genericSig": "<Self where Self : OkHi.OkCollectDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -19398,14 +19427,14 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1911,
+      "offset": 2020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1557,
       "length": 17,
       "value": "\"OkHi.WebviewController\""
     },
@@ -19617,7 +19646,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.9.46\""
+      "value": "\"1.9.47\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

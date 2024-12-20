@@ -353,6 +353,7 @@ extension OkHi.OkVerifyGeofence {
 public protocol OkCollectDelegate {
   func collect(didEncounterError error: OkHi.OkHiError)
   func collect(didSelectAddress response: OkHi.OkCollectSuccessResponse)
+  func collect(onClose: Swift.Void)
 }
 public enum OkHiUsageType : Swift.String {
   case physicalVerification

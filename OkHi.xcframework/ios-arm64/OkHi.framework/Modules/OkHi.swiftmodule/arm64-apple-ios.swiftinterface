@@ -180,7 +180,19 @@ public class OkHiLocation : Swift.Codable {
   public var countryCode: Swift.String?
   public var country: Swift.String?
   public var usageTypes: [Swift.String]
+  public var ward: Swift.String?
+  public var formattedAddress: Swift.String?
+  public var postCode: Swift.String?
+  public var lga: Swift.String?
+  public var lgaCode: Swift.String?
+  public var unit: Swift.String?
+  public var gpsAccuracy: Swift.Float?
+  public var businessName: Swift.String?
+  public var type: Swift.String?
+  public var district: Swift.String?
+  public var addressLine: Swift.String?
   public init()
+  public init(identifier: Swift.String)
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double)
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double, usageTypes: [OkHi.OkHiUsageType])
   @objc deinit

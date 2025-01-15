@@ -6166,6 +6166,1227 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "ward",
+            "printedName": "ward",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC4wardSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC4wardSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4wardSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC4wardSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4wardSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC4wardSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4wardSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC4wardSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "formattedAddress",
+            "printedName": "formattedAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC16formattedAddressSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC16formattedAddressSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC16formattedAddressSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC16formattedAddressSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC16formattedAddressSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC16formattedAddressSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC16formattedAddressSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC16formattedAddressSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postCode",
+            "printedName": "postCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC8postCodeSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC8postCodeSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8postCodeSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC8postCodeSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8postCodeSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC8postCodeSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8postCodeSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC8postCodeSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lga",
+            "printedName": "lga",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC3lgaSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC3lgaSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC3lgaSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC3lgaSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC3lgaSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC3lgaSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC3lgaSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC3lgaSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lgaCode",
+            "printedName": "lgaCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC7lgaCodeSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC7lgaCodeSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC7lgaCodeSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC7lgaCodeSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC7lgaCodeSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC7lgaCodeSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC7lgaCodeSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC7lgaCodeSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unit",
+            "printedName": "unit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC4unitSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC4unitSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4unitSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC4unitSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4unitSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC4unitSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4unitSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC4unitSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpsAccuracy",
+            "printedName": "gpsAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC11gpsAccuracySfSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC11gpsAccuracySfSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11gpsAccuracySfSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC11gpsAccuracySfSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11gpsAccuracySfSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC11gpsAccuracySfSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11gpsAccuracySfSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC11gpsAccuracySfSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "businessName",
+            "printedName": "businessName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC12businessNameSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC12businessNameSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC12businessNameSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC12businessNameSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC12businessNameSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC12businessNameSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC12businessNameSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC12businessNameSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC4typeSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC4typeSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4typeSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC4typeSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4typeSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC4typeSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC4typeSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC4typeSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "district",
+            "printedName": "district",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC8districtSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC8districtSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8districtSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC8districtSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8districtSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC8districtSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC8districtSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC8districtSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "addressLine",
+            "printedName": "addressLine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB8LocationC11addressLineSSSgvp",
+            "mangledName": "$s4OkHi0aB8LocationC11addressLineSSSgvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11addressLineSSSgvg",
+                "mangledName": "$s4OkHi0aB8LocationC11addressLineSSSgvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11addressLineSSSgvs",
+                "mangledName": "$s4OkHi0aB8LocationC11addressLineSSSgvs",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB8LocationC11addressLineSSSgvM",
+                "mangledName": "$s4OkHi0aB8LocationC11addressLineSSSgvM",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -6180,6 +7401,34 @@
             "declKind": "Constructor",
             "usr": "s:4OkHi0aB8LocationCACycfc",
             "mangledName": "$s4OkHi0aB8LocationCACycfc",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiLocation",
+                "printedName": "OkHi.OkHiLocation",
+                "usr": "s:4OkHi0aB8LocationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4OkHi0aB8LocationC10identifierACSS_tcfc",
+            "mangledName": "$s4OkHi0aB8LocationC10identifierACSS_tcfc",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl",
@@ -17720,288 +18969,372 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "FloatLiteral",
       "offset": 856,
-      "length": 3,
-      "value": "0.0"
+      "length": 4,
+      "value": "-1.0"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "FloatLiteral",
-      "offset": 866,
-      "length": 3,
-      "value": "0.0"
+      "offset": 867,
+      "length": 4,
+      "value": "-1.0"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1180,
+      "offset": 1182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 1492,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 1676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 1927,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 1990,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2035,
+      "offset": 2037,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2084,
+      "offset": 2086,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2148,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2199,
+      "offset": 2201,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3082,
+      "offset": 3823,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3118,
+      "offset": 3859,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3161,
+      "offset": 3902,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 3966,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3263,
+      "offset": 4004,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 4050,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3354,
+      "offset": 4095,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 4133,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 4187,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3527,
+      "offset": 4268,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 4314,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 4443,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 4484,
       "length": 13,
       "value": "\"usage_types\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3082,
+      "offset": 4548,
+      "length": 19,
+      "value": "\"formatted_address\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4592,
+      "length": 11,
+      "value": "\"post_code\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4644,
+      "length": 10,
+      "value": "\"lga_code\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4700,
+      "length": 14,
+      "value": "\"gps_accuracy\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4743,
+      "length": 15,
+      "value": "\"business_name\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4826,
+      "length": 16,
+      "value": "\"address_line_1\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 3823,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3118,
+      "offset": 3859,
       "length": 13,
       "value": "\"street_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3161,
+      "offset": 3902,
       "length": 15,
       "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 3966,
       "length": 11,
       "value": "\"geo_point\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3263,
+      "offset": 4004,
       "length": 13,
       "value": "\"street_view\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 4050,
       "length": 19,
       "value": "\"other_information\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3354,
+      "offset": 4095,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 4133,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 4187,
       "length": 11,
       "value": "\"plus_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3527,
+      "offset": 4268,
       "length": 15,
       "value": "\"display_title\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 4314,
       "length": 17,
       "value": "\"property_number\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 4443,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 4484,
       "length": 13,
       "value": "\"usage_types\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4548,
+      "length": 19,
+      "value": "\"formatted_address\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4592,
+      "length": 11,
+      "value": "\"post_code\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4644,
+      "length": 10,
+      "value": "\"lga_code\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4700,
+      "length": 14,
+      "value": "\"gps_accuracy\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4743,
+      "length": 15,
+      "value": "\"business_name\""
+    },
+    {
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
+      "kind": "StringLiteral",
+      "offset": 4826,
+      "length": 16,
+      "value": "\"address_line_1\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/Extensions\/UIDevice+Extension.swift",
@@ -19646,7 +20979,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.9.47\""
+      "value": "\"1.9.48\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

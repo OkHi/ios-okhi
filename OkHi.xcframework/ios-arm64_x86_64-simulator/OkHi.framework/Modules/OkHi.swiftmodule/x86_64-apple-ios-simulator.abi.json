@@ -20978,8 +20978,8 @@
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 378,
-      "length": 8,
-      "value": "\"1.9.48\""
+      "length": 15,
+      "value": "\"1.9.48-logger\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",

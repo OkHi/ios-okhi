@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OkHi
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
 import AppTrackingTransparency
 import SystemConfiguration.CaptiveNetwork
@@ -242,6 +243,7 @@ extension OkHi.OkVerify {
   public func requestNotificationPermission(registerForRemoteNotifications: Swift.Bool = true)
 }
 extension OkHi.OkVerify {
+  public static func getLocationAccuracyLevel() -> Swift.String
   public static func getLocationAuthorizationStatus(clManager: CoreLocation.CLLocationManager) -> CoreLocation.CLAuthorizationStatus
   public static func getLocationAuthorizationStatus() -> Swift.String
   public static func fetchRegisteredGeofences() -> [[Swift.String : Any]]
@@ -257,6 +259,7 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
 }
 @_inheritsConvenienceInitializers @objc public class OkHiTheme : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  @objc public func with(primaryColor: Swift.String) -> OkHi.OkHiTheme
   @objc public func with(logoUrl: Swift.String) -> OkHi.OkHiTheme
   @objc public func with(appBarColor: Swift.String) -> OkHi.OkHiTheme
   @objc public func with(appName: Swift.String) -> OkHi.OkHiTheme

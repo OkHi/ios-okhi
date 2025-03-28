@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "OkHi",
+    "printedName": "OkHi",
     "children": [
       {
         "kind": "Import",
@@ -148,7 +148,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -588,6 +604,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1165,6 +1195,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1617,6 +1661,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1866,6 +1924,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1962,6 +2034,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2233,6 +2321,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2749,6 +2851,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3235,6 +3351,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3605,6 +3735,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -7595,6 +7739,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7916,6 +8074,22 @@
         "moduleName": "OkHi",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8739,6 +8913,30 @@
           },
           {
             "kind": "Function",
+            "name": "getLocationAccuracyLevel",
+            "printedName": "getLocationAccuracyLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A6VerifyC24getLocationAccuracyLevelSSyFZ",
+            "mangledName": "$s4OkHi0A6VerifyC24getLocationAccuracyLevelSSyFZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getLocationAuthorizationStatus",
             "printedName": "getLocationAuthorizationStatus(clManager:)",
             "children": [
@@ -9105,6 +9303,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9195,6 +9407,36 @@
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "with",
+            "printedName": "with(primaryColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OkHiTheme",
+                "printedName": "OkHi.OkHiTheme",
+                "usr": "c:@M@OkHi@objc(cs)OkHiTheme"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OkHi@objc(cs)OkHiTheme(im)withPrimaryColor:",
+            "mangledName": "$s4OkHi0aB5ThemeC4with12primaryColorACSS_tF",
+            "moduleName": "OkHi",
+            "objc_name": "withPrimaryColor:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -9302,6 +9544,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10413,6 +10669,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10922,6 +11192,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11290,6 +11574,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11624,6 +11922,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11826,6 +12138,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12312,6 +12640,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12561,6 +12903,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12736,6 +13092,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13074,6 +13444,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13370,6 +13754,22 @@
         "moduleName": "OkHi",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14360,6 +14760,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15399,6 +15813,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15715,6 +16143,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16269,6 +16711,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17084,6 +17540,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -17291,6 +17761,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17579,6 +18063,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17791,6 +18289,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18583,6 +19095,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -18642,20 +19168,6 @@
       "offset": 685,
       "length": 10,
       "value": "\"external\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkHiAppContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1238,
-      "length": 11,
-      "value": "\"OkHi.OkHiAppMeta\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkHiLocationService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 6,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkHiLocationService.swift",
@@ -18747,132 +19259,6 @@
       "offset": 1683,
       "length": 21,
       "value": "\"service_unavailable\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 15,
-      "value": "\"unknown_error\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 738,
-      "length": 15,
-      "value": "\"network_error\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 904,
-      "length": 15,
-      "value": "\"invalid_phone\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1032,
-      "length": 14,
-      "value": "\"unauthorized\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 19,
-      "value": "\"permission_denied\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 17,
-      "value": "\"unable_to_parse\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1441,
-      "length": 23,
-      "value": "\"webview_http_internal\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1561,
-      "length": 21,
-      "value": "\"missing_location_id\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1683,
-      "length": 21,
-      "value": "\"service_unavailable\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 1921,
-      "length": 53,
-      "value": "\"Unable to process the request. Something went wrong\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2074,
-      "length": 52,
-      "value": "\"Unable to establish a connection with OkHi servers\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2277,
-      "length": 79,
-      "value": "\"Invalid phone number provided. Please make sure its in MSISDN standard format\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2469,
-      "length": 30,
-      "value": "\"Invalid credentials provided\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2607,
-      "length": 47,
-      "value": "\"Unable to parse response received from server\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2749,
-      "length": 38,
-      "value": "\"WKWebView navigation error with code\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 2884,
-      "length": 64,
-      "value": "\"Address failed to be tracked successfully. Missing location id\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 3049,
-      "length": 34,
-      "value": "\"Location services is unavailable\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
-      "length": 43,
-      "value": "\"Always location permission is not granted\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiError.swift",
@@ -19069,139 +19455,6 @@
       "offset": 2201,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 3823,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 3859,
-      "length": 13,
-      "value": "\"street_name\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 3902,
-      "length": 15,
-      "value": "\"property_name\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 3966,
-      "length": 11,
-      "value": "\"geo_point\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4004,
-      "length": 13,
-      "value": "\"street_view\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4050,
-      "length": 19,
-      "value": "\"other_information\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4095,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4133,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4187,
-      "length": 11,
-      "value": "\"plus_code\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4268,
-      "length": 15,
-      "value": "\"display_title\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4314,
-      "length": 17,
-      "value": "\"property_number\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4443,
-      "length": 14,
-      "value": "\"country_code\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4484,
-      "length": 13,
-      "value": "\"usage_types\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4548,
-      "length": 19,
-      "value": "\"formatted_address\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4592,
-      "length": 11,
-      "value": "\"post_code\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4644,
-      "length": 10,
-      "value": "\"lga_code\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4700,
-      "length": 14,
-      "value": "\"gps_accuracy\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4743,
-      "length": 15,
-      "value": "\"business_name\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 4826,
-      "length": 16,
-      "value": "\"address_line_1\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiLocation.swift",
@@ -20429,67 +20682,25 @@
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkHiAuth.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
-      "length": 4,
-      "value": "\"id\""
+      "offset": 250,
+      "length": 36,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkHiAuth.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 7,
-      "value": "\"phone\""
+      "offset": 267,
+      "length": 1,
+      "value": "\":\""
     },
     {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
+      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkHiAuth.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
-      "length": 11,
-      "value": "\"firstName\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2665,
+      "offset": 285,
       "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2702,
-      "length": 10,
-      "value": "\"lastName\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 11,
-      "value": "\"last_name\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2771,
-      "length": 7,
-      "value": "\"email\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2804,
-      "length": 11,
-      "value": "\"appUserId\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUser.swift",
-      "kind": "StringLiteral",
-      "offset": 2837,
-      "length": 7,
-      "value": "\"token\""
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/OkHiAuth.swift",
@@ -20696,101 +20907,10 @@
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 328,
-      "length": 11,
-      "value": "\"app_state\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 367,
-      "length": 18,
-      "value": "\"location_created\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 18,
-      "value": "\"location_updated\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 19,
-      "value": "\"location_selected\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
-      "length": 12,
-      "value": "\"fatal_exit\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 10,
-      "value": "\"exit_app\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 29,
-      "value": "\"request_location_permission\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 19,
-      "value": "\"open_app_settings\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 688,
-      "length": 22,
-      "value": "\"get_current_position\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2020,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1557,
-      "length": 17,
-      "value": "\"OkHi.WebviewController\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUsageType.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 23,
-      "value": "\"physical_verification\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUsageType.swift",
-      "kind": "StringLiteral",
-      "offset": 313,
-      "length": 22,
-      "value": "\"digital_verification\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUsageType.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 14,
-      "value": "\"address_book\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiUsageType.swift",
@@ -20851,27 +20971,6 @@
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
       "kind": "StringLiteral",
-      "offset": 241,
-      "length": 6,
-      "value": "\"prod\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
-      "length": 9,
-      "value": "\"sandbox\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 5,
-      "value": "\"dev\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
       "offset": 358,
       "length": 9,
       "value": "\"appOpen\""
@@ -20882,34 +20981,6 @@
       "offset": 388,
       "length": 10,
       "value": "\"geofence\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 358,
-      "length": 9,
-      "value": "\"appOpen\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 10,
-      "value": "\"geofence\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 472,
-      "length": 7,
-      "value": "\"enter\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 6,
-      "value": "\"exit\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Enum.swift",
@@ -20954,20 +21025,6 @@
       "value": "\"geo_point\""
     },
     {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/StreetView.swift",
-      "kind": "StringLiteral",
-      "offset": 754,
-      "length": 9,
-      "value": "\"pano_id\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/StreetView.swift",
-      "kind": "StringLiteral",
-      "offset": 788,
-      "length": 11,
-      "value": "\"geo_point\""
-    },
-    {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/OkVerifyUtil.swift",
       "kind": "StringLiteral",
       "offset": 322,
@@ -20979,7 +21036,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.9.50\""
+      "value": "\"1.9.51\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",
@@ -20987,13 +21044,6 @@
       "offset": 277,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/GeoPoint.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 8,
-      "value": "\"OkHi.GeoPoint\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkVerify\/Models\/Geofence.swift",
@@ -21234,48 +21284,6 @@
       "value": "\"loitering_delay\""
     },
     {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerifyGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1137,
-      "length": 29,
-      "value": "\"notification_responsiveness\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerifyGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1201,
-      "length": 22,
-      "value": "\"set_initial_triggers\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerifyGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1263,
-      "length": 28,
-      "value": "\"register_on_device_restart\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerifyGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1330,
-      "length": 27,
-      "value": "\"set_dwell_transition_type\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/OkHiVerifyGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1388,
-      "length": 17,
-      "value": "\"loitering_delay\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/Responses\/OkHiAuthResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 21,
-      "value": "\"authorization_token\""
-    },
-    {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Model\/Responses\/OkHiAuthResponse.swift",
       "kind": "StringLiteral",
       "offset": 243,
@@ -21347,13 +21355,6 @@
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 829,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
       "kind": "StringLiteral",
       "offset": 1078,
       "length": 8,
@@ -21372,41 +21373,6 @@
       "offset": 1132,
       "length": 7,
       "value": "\"phone\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1078,
-      "length": 8,
-      "value": "\"scopes\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1132,
-      "length": 7,
-      "value": "\"phone\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1348,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1370,
-      "length": 5,
-      "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kiano\/Documents\/okhi\/ios\/OkHi\/OkHi\/OkCore\/Helpers\/OkCoreConstants.swift",

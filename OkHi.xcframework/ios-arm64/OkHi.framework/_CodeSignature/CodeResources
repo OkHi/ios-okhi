@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OkHi-Swift.h</key>
 		<data>
-		iDUB9f1f8dxMoRtKRG46X9zzt5E=
+		mcWclmNpJaPi7lFyVKPHHErN9Z0=
 		</data>
 		<key>Headers/OkHi.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZWyAOZ+CaYY3qwIbsa+Ft1YEAtU=
+		N54e8RhLieUJ3FgBCygLjMfPBIc=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dfgTru9Duot8l6OV/lwFHLNDGpU=
+		8r2rlKh1Pn62W0gcpzG90MWWFBc=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		gTkYzFqsrKWlFwutjF90DmIHso0=
+		UuR8tRLVJ2wYb0GeSuTjyOu6rhY=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		GJu04IF1fa4mGwBmRyeHxqQf+bQ=
+		1m7BQneyySvD4eGxzFqLvrXz4oc=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		gTkYzFqsrKWlFwutjF90DmIHso0=
+		UuR8tRLVJ2wYb0GeSuTjyOu6rhY=
 		</data>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5jmaPqL4N60QY0PuJU+zXKvCuHQ=
+		VZGPe+e7VQpodWT5NAdLarLUg4E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>OkVerifyModel.momd/OkVerifyModel.mom</key>
 		<data>
-		4YQnAjl1J5oPEptvVLT4Hh+qczQ=
+		jEHh+17JC65aXFFHNE0spMiZfdM=
 		</data>
 		<key>OkVerifyModel.momd/VersionInfo.plist</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5iFgkY5wIb9oPN5WjSc69xh0q+unsbNgZfrP/zNlV0A=
+			ILVDLlMOFccbiBYIPPXwo6Ej0Rw5l7CwDsMKClV+c4E=
 			</data>
 		</dict>
 		<key>Headers/OkHi.h</key>
@@ -69,35 +69,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGCVF2pivhum4QW+3vRwcGHISDODqNzfM+Z4dVM/ndk=
+			GpkI5u3SEIAzuebUAOHYH4Ffcgp0DDfEnsnvLdEujB4=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYNQuiz2PuUykC9s5kyWaHVSkpQViGYHdf6QVmrA0j4=
+			6VF1zwJO11hMGfuOHracSt2enyu9LQZepw1eYKBlBV8=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6TrMAAWH4suqSsbh9MSkBo4R0PJ2iZHNuZHGbYvWWx0=
+			QkgKq+LsDqdimdaUmjMaB0W1HdfoAODcwsolyNumhZA=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYNQuiz2PuUykC9s5kyWaHVSkpQViGYHdf6QVmrA0j4=
+			6VF1zwJO11hMGfuOHracSt2enyu9LQZepw1eYKBlBV8=
 			</data>
 		</dict>
 		<key>Modules/OkHi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1e7+lIQ8AmDkfHdS/4Ba/AJKUjPRNQ9cjUzsa2GpLsU=
+			C+el5EFyrA75fR+7Nrotoqj+t6Jig8qsUZEu6O/TvEA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8HhCi2uREBgbXQutDJpmCAtJsKZAvjlXKfwlOLn3kuY=
+			l/omhVqNHDwOFcrlrQKGKOo3RTXJ+tMFikDAXyLsEJ8=
 			</data>
 		</dict>
 		<key>OkVerifyModel.momd/VersionInfo.plist</key>

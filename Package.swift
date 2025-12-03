@@ -18,6 +18,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OkHi",
-            path: "./OkHi.xcframework")
+            path: "./iOSOkHi.xcframework")
     ]
 )

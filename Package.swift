@@ -5,7 +5,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "iOSOkHi",
+    name: "OkHi",
     products: [
         .library(
             name: "iOSOkHi",

@@ -1,23 +1,22 @@
 // swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
-    name: "OkHi",
+    name: "iOSOkHi",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "OkHi",
-            targets: ["OkHi"]),
+            name: "iOSOkHi",
+            targets: ["iOSOkHi"]
+        ),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
+    dependencies: [],
     targets: [
         .binaryTarget(
-            name: "OkHi",
-            path: "./iOSOkHi.xcframework")
+            name: "iOSOkHi",
+            path: "./iOSOkHi.xcframework"
+        )
     ]
 )

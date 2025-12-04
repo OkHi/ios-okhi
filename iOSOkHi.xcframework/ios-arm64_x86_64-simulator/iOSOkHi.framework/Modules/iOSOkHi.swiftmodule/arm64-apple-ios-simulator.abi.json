@@ -14051,6 +14051,28 @@
           },
           {
             "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iOSOkHi02OkB0C15startMonitoringyyFZ",
+            "mangledName": "$s7iOSOkHi02OkB0C15startMonitoringyyFZ",
+            "moduleName": "iOSOkHi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startAddressVerification",
             "printedName": "startAddressVerification(vc:theme:config:location:completion:)",
             "children": [
@@ -23816,7 +23838,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.1\""
+      "value": "\"1.10.2\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

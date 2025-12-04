@@ -414,6 +414,7 @@ public struct BootstrapResponse : Swift.Codable {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OkHi : ObjectiveC.NSObject {
   public static let shared: iOSOkHi.OkHi
   public static func onStart()
+  public static func startMonitoring()
   @objc deinit
 }
 extension iOSOkHi.OkHi {

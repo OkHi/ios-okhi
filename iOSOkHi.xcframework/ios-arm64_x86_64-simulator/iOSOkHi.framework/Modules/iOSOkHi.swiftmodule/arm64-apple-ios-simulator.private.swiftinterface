@@ -423,7 +423,7 @@ extension iOSOkHi.OkHi {
   public func createAddress(vc: UIKit.UIViewController, theme: iOSOkHi.OkHiTheme = OkHiTheme(), config: iOSOkHi.OkHiConfig = OkHiConfig(), completion: ((iOSOkHi.OkHiSuccessResponse?, iOSOkHi.OkHiException?) -> Swift.Void)? = nil)
 }
 extension iOSOkHi.OkHi {
-  public func login(auth: iOSOkHi.OkHiAuth, user: iOSOkHi.OkHiUser, completion: (([iOSOkHi.BootstrapResponse]?) -> Swift.Void)? = nil)
+  public func login(auth: iOSOkHi.OkHiAuth, user: iOSOkHi.OkHiUser, completion: (([Swift.String]?) -> Swift.Void)? = nil)
 }
 extension iOSOkHi.OkHi : iOSOkHi.OkCollectDelegate {
   public func collect(didEncounterError error: iOSOkHi.OkHiError)

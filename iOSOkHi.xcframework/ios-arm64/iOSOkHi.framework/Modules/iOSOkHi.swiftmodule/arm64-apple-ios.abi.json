@@ -14507,12 +14507,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(([iOSOkHi.BootstrapResponse]?) -> ())?",
+                "printedName": "(([Swift.String]?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([iOSOkHi.BootstrapResponse]?) -> ()",
+                    "printedName": "([Swift.String]?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14522,18 +14522,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "[iOSOkHi.BootstrapResponse]?",
+                        "printedName": "[Swift.String]?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Array",
-                            "printedName": "[iOSOkHi.BootstrapResponse]",
+                            "printedName": "[Swift.String]",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "BootstrapResponse",
-                                "printedName": "iOSOkHi.BootstrapResponse",
-                                "usr": "s:7iOSOkHi17BootstrapResponseV"
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               }
                             ],
                             "usr": "s:Sa"
@@ -14549,8 +14549,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7iOSOkHi02OkB0C5login4auth4user10completionyAA0cB4AuthC_AA0cB4UserCySayAA17BootstrapResponseVGSgcSgtF",
-            "mangledName": "$s7iOSOkHi02OkB0C5login4auth4user10completionyAA0cB4AuthC_AA0cB4UserCySayAA17BootstrapResponseVGSgcSgtF",
+            "usr": "s:7iOSOkHi02OkB0C5login4auth4user10completionyAA0cB4AuthC_AA0cB4UserCySaySSGSgcSgtF",
+            "mangledName": "$s7iOSOkHi02OkB0C5login4auth4user10completionyAA0cB4AuthC_AA0cB4UserCySaySSGSgcSgtF",
             "moduleName": "iOSOkHi",
             "declAttributes": [
               "AccessControl"
@@ -23816,7 +23816,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.0\""
+      "value": "\"1.10.1\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

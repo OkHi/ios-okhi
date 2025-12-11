@@ -1,4 +1,0 @@
-framework module iOSOkHi {
-  header "iOSOkHi-Swift.h"
-  requires objc
-}

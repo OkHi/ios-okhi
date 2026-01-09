@@ -7759,6 +7759,35 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "toJSON",
+            "printedName": "toJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB8LocationC6toJSONSSSgyF",
+            "mangledName": "$s4OkHi0aB8LocationC6toJSONSSSgyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -10844,6 +10873,35 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJSON",
+            "printedName": "toJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0aB4UserC6toJSONSSSgyF",
+            "mangledName": "$s4OkHi0aB4UserC6toJSONSSSgyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -23838,7 +23896,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.3\""
+      "value": "\"1.10.4\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

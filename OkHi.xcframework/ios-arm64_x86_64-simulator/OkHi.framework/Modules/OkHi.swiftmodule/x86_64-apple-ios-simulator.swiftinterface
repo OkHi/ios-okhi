@@ -196,6 +196,7 @@ extension OkHi.OkVerifyGeofenceTransition {
   public init(identifier: Swift.String)
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double)
   public init(identifier: Swift.String, lat: Swift.Double, lon: Swift.Double, usageTypes: [OkHi.OkHiUsageType])
+  public func toJSON() -> Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -282,6 +283,7 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   public func with(email: Swift.String) -> OkHi.OkHiUser
   public func with(appUserId: Swift.String) -> OkHi.OkHiUser
   public func with(token: Swift.String) -> OkHi.OkHiUser
+  public func toJSON() -> Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }

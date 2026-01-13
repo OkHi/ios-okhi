@@ -416,9 +416,8 @@ public struct BootstrapResponse : Swift.Codable {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OK : ObjectiveC.NSObject {
   public static let shared: OkHi.OK
-  public static func onStart()
-  public static func startMonitoring()
   @objc deinit
+  public static func startMonitoring()
 }
 extension OkHi.OK {
   public func startAddressVerification(vc: UIKit.UIViewController, theme: OkHi.OkHiTheme = OkHiTheme(), config: OkHi.OkHiConfig = OkHiConfig(), location: OkHi.OkHiLocation? = nil, completion: ((OkHi.OkHiSuccessResponse?, OkHi.OkHiException?) -> Swift.Void)? = nil)

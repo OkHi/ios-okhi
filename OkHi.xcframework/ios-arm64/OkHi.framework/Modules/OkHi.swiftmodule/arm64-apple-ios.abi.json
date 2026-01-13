@@ -14087,28 +14087,6 @@
           },
           {
             "kind": "Function",
-            "name": "onStart",
-            "printedName": "onStart()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4OkHi2OKC7onStartyyFZ",
-            "mangledName": "$s4OkHi2OKC7onStartyyFZ",
-            "moduleName": "OkHi",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "startMonitoring",
             "printedName": "startMonitoring()",
             "children": [
@@ -23896,7 +23874,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.4\""
+      "value": "\"1.10.5\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

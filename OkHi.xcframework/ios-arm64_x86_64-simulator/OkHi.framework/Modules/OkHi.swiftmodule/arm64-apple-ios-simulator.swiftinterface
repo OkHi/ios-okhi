@@ -321,6 +321,7 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class OkHiLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  final public let locationManager: CoreLocation.CLLocationManager
   @objc override dynamic public init()
   public func getLocationManager() -> CoreLocation.CLLocationManager
   public func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?) -> Swift.Void)

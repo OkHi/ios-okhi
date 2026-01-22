@@ -12034,6 +12034,55 @@
         "printedName": "OkHiLocationManager",
         "children": [
           {
+            "kind": "Var",
+            "name": "locationManager",
+            "printedName": "locationManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4OkHi0aB15LocationManagerC08locationD0So010CLLocationD0Cvp",
+            "mangledName": "$s4OkHi0aB15LocationManagerC08locationD0So010CLLocationD0Cvp",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationManager",
+                    "printedName": "CoreLocation.CLLocationManager",
+                    "usr": "c:objc(cs)CLLocationManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4OkHi0aB15LocationManagerC08locationD0So010CLLocationD0Cvg",
+                "mangledName": "$s4OkHi0aB15LocationManagerC08locationD0So010CLLocationD0Cvg",
+                "moduleName": "OkHi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -23473,7 +23522,7 @@
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Helpers\/OkHiLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 393,
+      "offset": 392,
       "length": 5,
       "value": "false"
     },
@@ -23874,7 +23923,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.5\""
+      "value": "\"1.10.6\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

@@ -23781,28 +23781,28 @@
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 21,
-      "value": "\"retrive_device_meta\""
+      "offset": 749,
+      "length": 31,
+      "value": "\"fetch_location_accuracy_level\""
+    },
+    {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 37,
+      "value": "\"fetch_location_authorization_status\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2071,
+      "offset": 2172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2109,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2144,
+      "offset": 2210,
       "length": 5,
       "value": "false"
     },
@@ -23930,7 +23930,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.6\""
+      "value": "\"1.10.8\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

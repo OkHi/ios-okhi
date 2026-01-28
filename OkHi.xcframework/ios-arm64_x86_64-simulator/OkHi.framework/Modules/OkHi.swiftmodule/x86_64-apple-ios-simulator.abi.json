@@ -13984,6 +13984,20 @@
         "moduleName": "OkHi"
       },
       {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "OkHi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BootstrapResponse",
         "printedName": "BootstrapResponse",
@@ -23828,6 +23842,13 @@
       "value": "\"address_book\""
     },
     {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/OK.swift",
+      "kind": "StringLiteral",
+      "offset": 10385,
+      "length": 498,
+      "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7HTObKiRtc3ni9pgjhZ\nmWdt79SrLAIRNMUOmBtAXsi9mQX5V1OCxCJjiMjyzTkZI9QWTRB2bBkWE+H3a+jq\n8wpkwxyjBsbAZamM3bJQdnBdijejJQy4suE39CzAjWYoBNjs4jqGfhOkKhtki44R\nJ5lgd+cidITta11tpbjGHFezIFEWWLSrMcrmhA9W7PUv3w17MJTmN31HWJOObUVV\nHqYhnxT2at6EngF7ic3KmLC6eyMJR9U+otKH+H2xZJORUgUXkmTXHiYwoSZqpLQ6\nSRjC9\/iXpUgInSt4X+hX1dQ\/9t3JX69PJKZ5YsSkEG7aUcRoI24z2dgFIhgJRBX1\neQIDAQAB\n-----END PUBLIC KEY-----\""
+    },
+    {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Helpers\/NetworkHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 260,
@@ -23930,7 +23951,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
-      "value": "\"1.10.8\""
+      "value": "\"1.10.9\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

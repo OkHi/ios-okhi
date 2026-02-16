@@ -346,6 +346,7 @@ SWIFT_CLASS("_TtC4OkHi2OK")
 @interface OK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (void)startMonitoring;
 @end
 
 SWIFT_CLASS("_TtC4OkHi11OkAnalytics")
@@ -1021,6 +1022,7 @@ SWIFT_CLASS("_TtC4OkHi2OK")
 @interface OK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (void)startMonitoring;
 @end
 
 SWIFT_CLASS("_TtC4OkHi11OkAnalytics")

@@ -11929,6 +11929,26 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi0A11PreferencesC5clearyyF",
+            "mangledName": "$s4OkHi0A11PreferencesC5clearyyF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14673,6 +14693,70 @@
             "declKind": "Func",
             "usr": "s:4OkHi2OKC5login4auth4user10completionyAA0aB4AuthC_AA0aB4UserCySaySSGSgcSgtF",
             "mangledName": "$s4OkHi2OKC5login4auth4user10completionyAA0aB4AuthC_AA0aB4UserCySaySSGSgcSgtF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi2OKC6logout10completionyySaySSGSgcSg_tF",
+            "mangledName": "$s4OkHi2OKC6logout10completionyySaySSGSgcSg_tF",
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
@@ -23845,7 +23929,7 @@
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/OK.swift",
       "kind": "StringLiteral",
-      "offset": 10508,
+      "offset": 10990,
       "length": 498,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7HTObKiRtc3ni9pgjhZ\nmWdt79SrLAIRNMUOmBtAXsi9mQX5V1OCxCJjiMjyzTkZI9QWTRB2bBkWE+H3a+jq\n8wpkwxyjBsbAZamM3bJQdnBdijejJQy4suE39CzAjWYoBNjs4jqGfhOkKhtki44R\nJ5lgd+cidITta11tpbjGHFezIFEWWLSrMcrmhA9W7PUv3w17MJTmN31HWJOObUVV\nHqYhnxT2at6EngF7ic3KmLC6eyMJR9U+otKH+H2xZJORUgUXkmTXHiYwoSZqpLQ6\nSRjC9\/iXpUgInSt4X+hX1dQ\/9t3JX69PJKZ5YsSkEG7aUcRoI24z2dgFIhgJRBX1\neQIDAQAB\n-----END PUBLIC KEY-----\""
     },
@@ -23952,7 +24036,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 9,
-      "value": "\"1.10.12\""
+      "value": "\"1.10.13\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

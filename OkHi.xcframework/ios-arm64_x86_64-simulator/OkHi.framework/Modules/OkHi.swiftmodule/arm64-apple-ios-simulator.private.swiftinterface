@@ -320,6 +320,7 @@ extension OkHi.OkVerify : CoreLocation.CLLocationManagerDelegate {
   public var environmentStr: Swift.String? {
     get
   }
+  public func clear()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class OkHiLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
@@ -430,6 +431,7 @@ extension OkHi.OK {
 }
 extension OkHi.OK {
   public func login(auth: OkHi.OkHiAuth, user: OkHi.OkHiUser, completion: (([Swift.String]?) -> Swift.Void)? = nil)
+  public func logout(completion: (([Swift.String]?) -> Swift.Void)? = nil)
 }
 extension OkHi.OK : OkHi.OkCollectDelegate {
   public func collect(didEncounterError error: OkHi.OkHiError)

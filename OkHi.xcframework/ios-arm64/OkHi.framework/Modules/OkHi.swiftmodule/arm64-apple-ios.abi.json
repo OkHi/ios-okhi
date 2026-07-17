@@ -12932,6 +12932,112 @@
           },
           {
             "kind": "Var",
+            "name": "NO_ACTIVE_SESSION_CODE",
+            "printedName": "NO_ACTIVE_SESSION_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OkHi@objc(cs)OkHiException(cpy)NO_ACTIVE_SESSION_CODE",
+            "mangledName": "$s4OkHi0aB9ExceptionC22NO_ACTIVE_SESSION_CODESSvpZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OkHi@objc(cs)OkHiException(cm)NO_ACTIVE_SESSION_CODE",
+                "mangledName": "$s4OkHi0aB9ExceptionC22NO_ACTIVE_SESSION_CODESSvgZ",
+                "moduleName": "OkHi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CLOSE_IN_PROGRESS_CODE",
+            "printedName": "CLOSE_IN_PROGRESS_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OkHi@objc(cs)OkHiException(cpy)CLOSE_IN_PROGRESS_CODE",
+            "mangledName": "$s4OkHi0aB9ExceptionC22CLOSE_IN_PROGRESS_CODESSvpZ",
+            "moduleName": "OkHi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OkHi@objc(cs)OkHiException(cm)CLOSE_IN_PROGRESS_CODE",
+                "mangledName": "$s4OkHi0aB9ExceptionC22CLOSE_IN_PROGRESS_CODESSvgZ",
+                "moduleName": "OkHi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "code",
             "printedName": "code",
             "children": [
@@ -14620,6 +14726,63 @@
             "moduleName": "OkHi",
             "declAttributes": [
               "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeAddressCollection",
+            "printedName": "closeAddressCollection(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((OkHi.OkHiException?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OkHi.OkHiException?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "OkHi.OkHiException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OkHiException",
+                            "printedName": "OkHi.OkHiException",
+                            "usr": "c:@M@OkHi@objc(cs)OkHiException"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4OkHi2OKC22closeAddressCollection10completionyyAA0aB9ExceptionCSgcSg_tF",
+            "mangledName": "$s4OkHi2OKC22closeAddressCollection10completionyyAA0aB9ExceptionCSgcSg_tF",
+            "moduleName": "OkHi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -23794,6 +23957,20 @@
       "value": "\"user_closed\""
     },
     {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/OkHiException.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 19,
+      "value": "\"no_active_session\""
+    },
+    {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/OkHiException.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 19,
+      "value": "\"close_in_progress\""
+    },
+    {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
       "kind": "StringLiteral",
       "offset": 175,
@@ -23906,6 +24083,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCollect\/ViewControllers\/WebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2769,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/OkHiUsageType.swift",
       "kind": "StringLiteral",
       "offset": 258,
@@ -23929,21 +24120,21 @@
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/OK.swift",
       "kind": "StringLiteral",
-      "offset": 11407,
+      "offset": 12575,
       "length": 498,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2\/dUmoken1QQ\/QV2XxjN\nTpGuiLUbvmlQ0zrruqYZ+tYsFd3f2GOzI\/FRfL2Ay14pNtewyBBqAGAMgal3PI+4\nOKqP3u7FZ2Dc1I8rQ9eaJM8S5XqDf97D+6WdO9yJJrh4n0U2PpSeZxgbjhEB0les\n+skkos5d7FpHgGAbxYUZNH1MbgLgTcHSEuwmjCUphQes6OiSrsuBgChw9sgnw8Bq\nU6gZaUDJ9gVGG5IA\/RfDCF5onYXuvNNH\/N4IFtT+kG7Eix\/yrNuyCEOVSrkt\/ixK\n9opIrjtAL1Xoveorh34Dq9JlRfu4WO45931fbkrJitf5PLVl+Cv3ZSKVKV1yY2j\/\n1wIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/OK.swift",
       "kind": "StringLiteral",
-      "offset": 11955,
+      "offset": 13123,
       "length": 498,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtREftS3eUB35iO5LgzJ\/\nfbtvT7yNqXXw578uddajHFlARMUjezi3A4e5Gveg6w7GHxUkGFfJB2F8X6c7lNuC\nT0qRb\/myv\/UZRRLYH0NRSusDD\/SavAlgsz4XxxMa4Q4J8cxrcUxZEH+bdCBWRQ9n\n\/QMhAOifWQbsVECa2nZDTmyTKrk59lGl3O1oWVl5\/3KJifaSHgX\/h0ZSZK3AUmU1\n\/n+FOCUY+zabLsVIHNsFSSSw7V38nPCXmudPC+DBgGk9qwSl5jCEfsGQIByEwX9M\njNf2ULeokxZEqcwK7kEwS+cTZ5lkwoX0LQ30UbjtqNEXzMaCzPTk6zLPDf1yPfE6\n4wIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/OK.swift",
       "kind": "StringLiteral",
-      "offset": 12500,
+      "offset": 13668,
       "length": 498,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7HTObKiRtc3ni9pgjhZ\nmWdt79SrLAIRNMUOmBtAXsi9mQX5V1OCxCJjiMjyzTkZI9QWTRB2bBkWE+H3a+jq\n8wpkwxyjBsbAZamM3bJQdnBdijejJQy4suE39CzAjWYoBNjs4jqGfhOkKhtki44R\nJ5lgd+cidITta11tpbjGHFezIFEWWLSrMcrmhA9W7PUv3w17MJTmN31HWJOObUVV\nHqYhnxT2at6EngF7ic3KmLC6eyMJR9U+otKH+H2xZJORUgUXkmTXHiYwoSZqpLQ6\nSRjC9\/iXpUgInSt4X+hX1dQ\/9t3JX69PJKZ5YsSkEG7aUcRoI24z2dgFIhgJRBX1\neQIDAQAB\n-----END PUBLIC KEY-----\""
     },
@@ -24050,7 +24241,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 9,
-      "value": "\"1.10.16\""
+      "value": "\"1.10.17\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",

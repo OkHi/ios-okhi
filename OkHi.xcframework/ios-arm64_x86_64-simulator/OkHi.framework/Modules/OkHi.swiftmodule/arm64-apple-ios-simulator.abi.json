@@ -23637,21 +23637,21 @@
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 6160,
+      "offset": 6360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 13186,
+      "offset": 13386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkVerify\/OkVerify.swift",
       "kind": "BooleanLiteral",
-      "offset": 13697,
+      "offset": 13897,
       "length": 4,
       "value": "true"
     },
@@ -24241,7 +24241,7 @@
       "kind": "StringLiteral",
       "offset": 378,
       "length": 9,
-      "value": "\"1.10.17\""
+      "value": "\"1.10.18\""
     },
     {
       "filePath": "\/Users\/mzito\/Documents\/code-playground\/okhi\/ios-okhi-src\/OkHi\/OkCore\/Model\/GeoPoint.swift",
